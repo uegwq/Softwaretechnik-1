@@ -5,6 +5,8 @@ date: 2024-07-20
 lang: de
 
 website:
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [edit, issue]
   title: "Softwaretechnik 1"
   sidebar:
     style: "docked"

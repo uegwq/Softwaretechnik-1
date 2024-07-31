@@ -1,5 +1,9 @@
 ## Steps to sucess for using this template
 
+
+#### OUTDATED; PLEASE SEE TEMPLATE REPOSITORY
+
+
 1. create git repo with following commands:
 ```
 //TODO git config email username
