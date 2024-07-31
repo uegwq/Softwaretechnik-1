@@ -1,0 +1,2395 @@
+[
+  {
+    "objectID": "13 Abnahme und Wartung/Continuous Deployment.html#definition",
+    "href": "13 Abnahme und Wartung/Continuous Deployment.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nAutomatisches Deployment der Artefakte aus der Continous Integration nach automatisieretn Akzeptanztests.\nDas heißt wenn wir eine änderung zu machen dann wird die automatisch nach akzeptanztests eingesetzt und beim Kunden deployed.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Continuous Deployment"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Continuous Deployment.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Continuous Deployment.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Continuous Deployment"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Die Abnahmephase.html#definition",
+    "href": "13 Abnahme und Wartung/Die Abnahmephase.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nIn dieser Phase wird das fertiggestelle Grsamtprodukt abgenommen und beim Anwender in Betrieb genommen: hier beginnt dann die Wartung und Pflege.\nDamit ist allgemein ein Abnahmetest sowie Belastungs- oder Stresstests. Das Ergebnis von dieser Phase ist ein Abnahmeprotokoll",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Die Abnahmephase"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Die Abnahmephase.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Die Abnahmephase.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Die Abnahmephase"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Die Einführungsphase.html#definition",
+    "href": "13 Abnahme und Wartung/Die Einführungsphase.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nHier wurde die Abnahmephase schon beendet. Danach beginnt die Einführungsphase, hier ist die Frage:\n\nWie installiere ich das Produkt (auf den Rechner, servern, wann, welches Datum)\nWie Schule ich die Benutzer und das Betriebspersonal?\nWie gestallte ich den Übergang zwischen intallation und betriebsnahme.\nAlle Vorkommnisse, die in der Einführungsphase auftreten, werden festgehalten\nBei Ersatz eines existierenden Systems: Umstellung der Datenbestände (z.b. Manuelle Karteien und Aktenbestände müssten oft erst aufbereitet oder zusammengestellt werden ZEIT!)\nWichtig ist es den Kunden mitzunehmen!\nEs gibt drei Arten der Einführungsphase\n1. Direkte Umstellung (schnipps auf einmal) (meist Risikoreich)\n\n2. Parallellauf (beide Systeme läufen parallel)\n\n3. Versuchslauf (wir testen mal das neue System und beides ist möglich)",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Die Einführungsphase"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Die Einführungsphase.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Die Einführungsphase.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Die Einführungsphase"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Continous Intergration.html#definition",
+    "href": "13 Abnahme und Wartung/Continous Intergration.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nMan automatisiert die Arbeit der Entwickler in ein System zu integrieren.\nZ.b. wir comittn eine klasse und dann wird die direkt gebaut aber die wird nicht direkt bei dem Kunden deployed. Das System haben wir und können es testen und können es dann irgendwann deployen.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Continous Intergration"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Continous Intergration.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Continous Intergration.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Continous Intergration"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Bugtracking.html#bugtracking-1",
+    "href": "13 Abnahme und Wartung/Bugtracking.html#bugtracking-1",
+    "title": "Softwaretechnik 1",
+    "section": "Bugtracking",
+    "text": "Bugtracking\n\nMit so einem Sysrtem kann man eingehende Fehlermeldungen und Verbesserunggsvorschlägen sowie deren aktuelle bearbeitung einsehen. Damit diese Defekte müssen diese Fehlermeldungen reproduzierbar sein, also brauchen wir erstmal gute Bug-Reports. Dafür gibt es sogennante Systeme für das Protokollieren von Bugs (Bugtracker). Es werden informationen mitverfolgt wie Urheber, Problemschwierigkeit und Priorität.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Bugtracking"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Bugtracking.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Bugtracking.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Bugtracking"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Motivation.html#motivation-1",
+    "href": "3 Anforderungsanalyse/Motivation.html#motivation-1",
+    "title": "Softwaretechnik 1",
+    "section": "Motivation",
+    "text": "Motivation\n\nWenn man sich schaut wo die Probleme bei der Softwareentwicklung herkommmen, dann hat man meist die Fehler beim Anfang: Also Kundenmiteinbeziehung, Planung, Änderung in den Anforderungen. Wir müssen also von Anfang an unsere Arbeit richtig machen, wenn wir in der Anforderungsanalyse beginnen.",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Motivation.html#siehe-auch",
+    "href": "3 Anforderungsanalyse/Motivation.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Motivation"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#überblick",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#überblick",
+    "title": "Softwaretechnik 1",
+    "section": "Überblick",
+    "text": "Überblick\n\n\nAnforderungsermittlung\nAnforderungsformulieren\nAnforderungsanalyse\nAnforderungsvalidierung\nAnforderungsmanagement (Falls sich Anforderungen ändern etc)",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsermittlung",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsermittlung",
+    "title": "Softwaretechnik 1",
+    "section": "Anforderungsermittlung",
+    "text": "Anforderungsermittlung\n\nMethoden:\n\nInterviews (Was möchte ich von den Personen wissen),\nFokusgruppen (mit Vorbereitung, mit Unterlagen),\nFragebögen (Zuschicken, als systematisches Interview),\nDokumentenanalyse (Zum Beispiel für die Verwaltungsdigitalisierung.\nDie Dienstreisedokumente vom KIT hat man sich diese Dokumente zum Beispiel nicht analysisert. Bevor: zwei Leute müssen das Dokument unterschreiben. Nach Digitalisierung: einer unterschreibt das Dokuement Digital und es muss per Mail immer hin- und hergeschickt werden), \nBeobachtungen (Beobachten was die User machen und brauchen),\nPrototyping\n\n\nPriorisierung\n\nA = essentiell\nB = notwendig\nC = wünschenswert\n\n\n\nRatgeber für Anforderungensformilierungsstil\n\nKurze Sätze und kurze Absätze\nNur eine Aussage pro Satz (Keine komischen Nebensätze)\nKonsistente Terminologie (keine Synonyme)\nOffene Punkte kennzeichnen?\nGeneralität vermeiden, klare Referenzen verwenden?\nVerbindlichkeiten klar formulieren: “Muss, kann, soll” etc. mit Bedacht verwenden\nAktor formulieren: “Das System…”",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsvalidierung",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsvalidierung",
+    "title": "Softwaretechnik 1",
+    "section": "Anforderungsvalidierung",
+    "text": "Anforderungsvalidierung\n\n\nWird der Bedarf des Kunden vollständig abgedeckt?\nVerständlich formuliert?\nKonsistent mit anderen Anforderungen?\nRealistisch mit Budget und Technologie?\nAnforderung prüfbar?\nÄnderbar ohne Einfluss auf andere Anforderungen?",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#management",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#management",
+    "title": "Softwaretechnik 1",
+    "section": "Management",
+    "text": "Management\n\nTraceability:\n\nNachvollziehbarkeit von Anforderungen über den gesamten Prozess\nKomplex durch gesamtheit der Anforderungen",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsanalyse",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#anforderungsanalyse",
+    "title": "Softwaretechnik 1",
+    "section": "Anforderungsanalyse",
+    "text": "Anforderungsanalyse\n\nAbgrenzungskriterien:\n\nWichtig auch zu klären, was das Programm nicht machen soll.\nSchutz vor Änderungsanträgen\n\nBeispiel:\n\nKein Fukus auf intuitive Benutzung, nur für geschulte Benutzer\nSchützt nicht vor Fehlern des Benutzers\nMultilinguale Benutzeroberfläche nicht geplant.",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#was-sind-gute-anforderungen",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#was-sind-gute-anforderungen",
+    "title": "Softwaretechnik 1",
+    "section": "Was sind gute Anforderungen",
+    "text": "Was sind gute Anforderungen\n\n\nEindeutig\nKonsistent\nVollständig (10-15% der Projekte gehen kaputt wegen unvollständigen Anforderungen)\nKorrekt\nÄnderbar\nNachvollziehbar\n\n(Nach IEEE Std. 830-1998)\nBeispiel: Frau Schäfer hat an einem Projekt für die Entwicklung von Scheibenwischersysteme gearbeitet. Es waren 95 Seiten Anforderungen",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#siehe-auch",
+    "href": "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Bestandteile der Anforderungsanalyse"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Use-Case.html#definition",
+    "href": "3 Anforderungsanalyse/Use-Case.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEin Use Case ist hilfreich um Anforderungen und das Verhalten des Systems nach außen darzustellen. Man kann dies erstmal Textuell machen:\n\nUnd die Relationen zwischen den einzelnen Use Cases und den Akteuren darzustellen kann man diese als Diagramm darstellen:",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Use-Case"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Use-Case.html#siehe-auch",
+    "href": "3 Anforderungsanalyse/Use-Case.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Use-Case"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#definition",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nKapsle eine auf den Elementen einer Objektstruktur auszuführende Operation als ein Objekt.\nDas Visitor-Muster ermöglicht es, eine neue Operation zu definieren, ohne die Klassen der von ihr bearbeiteten Elemente zu verändern.",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Visitor"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#struktur",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#struktur",
+    "title": "Softwaretechnik 1",
+    "section": "Struktur",
+    "text": "Struktur",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Visitor"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#beispiel",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Visitor"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Visitor.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Visitor"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Observer.html#definition",
+    "href": "9 Entwurfsmuster/Strukturmuster/Observer.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nLaut tutor wichtig für die Klausur",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Observer.html#vorgehen",
+    "href": "9 Entwurfsmuster/Strukturmuster/Observer.html#vorgehen",
+    "title": "Softwaretechnik 1",
+    "section": "Vorgehen",
+    "text": "Vorgehen\n\n\nDas interface Oberserver erstellen\n\nDas abstrakte Subjekt erstellen",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Observer.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Observer.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Proxy.html#definition",
+    "href": "9 Entwurfsmuster/Strukturmuster/Proxy.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDt. Stellvertreter. Der Zweck dahinter ist, dass wir den Zugriff auf ein Objekt mit Hilfe einer Vorgelagerten Stellvertreterobjekt kontrollieren.\n\nStruktur\n\n\n\nAnwendung",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Proxy"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Proxy.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Proxy.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Proxy"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Facade.html#definition",
+    "href": "9 Entwurfsmuster/Strukturmuster/Facade.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Facade"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Facade.html#anwendung",
+    "href": "9 Entwurfsmuster/Strukturmuster/Facade.html#anwendung",
+    "title": "Softwaretechnik 1",
+    "section": "Anwendung",
+    "text": "Anwendung\n\n\nWenn eine einfache Schnittstelle zu einem komplexen Subsystem angeboten werden soll. Eine Fassade kann eine einfache voreingestellte Sicht auf das Subsystem bieten, die den meisten Clients genügt.\nWenn es viele Abhängigkeiten zwischen den Clients und den Implementierungsklassen einer Abstraktion gibt. Die Einführung einer Facade entkoppelt die Subsysteme von Clients und anderen Subsystemen.\nWenn Subsysteme in Schichten aufgeteilt werden sollen. Man verwendet eine Facade, um einen Eintrittspunkt zu jeder Subsystemschicht zu definieren.",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Facade"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Facade.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Facade.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Facade"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Singleton.html#definition",
+    "href": "9 Entwurfsmuster/Erzeugungsmuster/Singleton.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Erzeugungsmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Singleton.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Erzeugungsmuster/Singleton.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Erzeugungsmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Klassifizierung der Muster.html",
+    "href": "9 Entwurfsmuster/Klassifizierung der Muster.html",
+    "title": "Softwaretechnik 1",
+    "section": "",
+    "text": "^",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Klassifizierung der Muster"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Klassifizierung der Muster.html#klassifizierung-der-muster",
+    "href": "9 Entwurfsmuster/Klassifizierung der Muster.html#klassifizierung-der-muster",
+    "title": "Softwaretechnik 1",
+    "section": "Klassifizierung der Muster",
+    "text": "Klassifizierung der Muster",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Klassifizierung der Muster"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Klassifizierung der Muster.html#definition",
+    "href": "9 Entwurfsmuster/Klassifizierung der Muster.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\n\nStrukturmuster - Zusammensetzung von Klassen und Objekten\nErzeugungsmuster - Erzeugung von Objekten\nVerhaltensmuster - Steuern Kontroll🏞️e und Interaktionen zwischen Klassen und Objekten",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Klassifizierung der Muster"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Klassifizierung der Muster.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Klassifizierung der Muster.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Klassifizierung der Muster"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Projektplanung.html#definition",
+    "href": "14 Projektmanagement/Projektplanung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nPlan ist wichtig um eine Grundstruktur zu haben aber: in dem Moment wo man einen Plan macht ist er schon veraltet. Ein Plan wird ständig Aktualisiert und nachgezogen und somit dann die Grundlage damit ich dann später das Projekt weiter kontrollieren kann. Wenn ich den Plan habe kann ich Risikos erkennen. Planung verstehen wir aber als Prozess und Zitat: ““Damals haben wir mit viel Aufwand den Plan gemacht und nach zwei Wochen hat er schon nicht mehr gestimmt”. Ein Plan ist keine Vorhersage und nur ein Werkzeug!\n\nSteuermaßnahmen:\n\nÜberstunden ansetzen\nMehr leute einstellen\nKunden fragen für mehr geld\nOder Plan streichen",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Projektplanung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Projektplanung.html#siehe-auch",
+    "href": "14 Projektmanagement/Projektplanung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Projektplanung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Was ist ein Projekt.html#definition",
+    "href": "14 Projektmanagement/Was ist ein Projekt.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEin Projekt:\n\nHat immer ein Projektziel\nIst in einem Zeitrahmen\nBefasst sich mit einem schwierigen Thema und stellt eine neuartige Herausforderung die auf jeden fall anders wie eine Routinetätigkeit ist",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Was ist ein Projekt"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Was ist ein Projekt.html#siehe-auch",
+    "href": "14 Projektmanagement/Was ist ein Projekt.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Was ist ein Projekt"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Inhalte der Planung.html#definition",
+    "href": "14 Projektmanagement/Inhalte der Planung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nFragestellung:\n\nWer\nWann (Termine)\nWas (Welche Aufgaben)\nggf. Womit (Arbeitsmittel)\n\nEs finden sich also: Aufgaben, Aktivitäten, Ressourcen (auch Personenressourcen), Aufwände und Puffer sowie Termine",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Inhalte der Planung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Inhalte der Planung.html#siehe-auch",
+    "href": "14 Projektmanagement/Inhalte der Planung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Inhalte der Planung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Planungstechniken.html#definition",
+    "href": "14 Projektmanagement/Planungstechniken.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nProjektstrukturplan",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Planungstechniken"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Planungstechniken.html#siehe-auch",
+    "href": "14 Projektmanagement/Planungstechniken.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Planungstechniken"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Risikomanagemt.html#definition",
+    "href": "14 Projektmanagement/Risikomanagemt.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDefinition:\nRisiko = Schadensausmaß * Schadenshäufigkeit\n\nUnsere Aufgaben ist es die Risikos zu quantifizieren, analysiseren und dann zu sehen: Welche Risikien behandeln wir (priorisation) und welche nehmen wir in kauf.\n\nDies ist gut um das Vertrauen zu steigern!",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Risikomanagemt"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Risikomanagemt.html#siehe-auch",
+    "href": "14 Projektmanagement/Risikomanagemt.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Risikomanagemt"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Softwaretechnik 1",
+    "section": "",
+    "text": "And this is a very interesting text indeed :)"
+  },
+  {
+    "objectID": "index.html#this-is-a-template",
+    "href": "index.html#this-is-a-template",
+    "title": "Softwaretechnik 1",
+    "section": "",
+    "text": "And this is a very interesting text indeed :)"
+  },
+  {
+    "objectID": "4 Modellierung/Paketdiagramme.html#steckbrief",
+    "href": "4 Modellierung/Paketdiagramme.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "4 Modellierung",
+      "Paketdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Paketdiagramme.html#definition",
+    "href": "4 Modellierung/Paketdiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nPakete sind Namensräume um ähnliche Elemente zu gruppieren. Es soll eine enge Verknüpfung zwischen den Elementen innerhalb und eine schwache Verknüpfung nach außerhalb eines Paketes geben.\n\nFaustregeln\nEin Paket soll 10-15 Klassen haben und eine DIN A4 Seite für ein Paket.",
+    "crumbs": [
+      "4 Modellierung",
+      "Paketdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Paketdiagramme.html#beispiel",
+    "href": "4 Modellierung/Paketdiagramme.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "4 Modellierung",
+      "Paketdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Paketdiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Paketdiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Paketdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sequenzdiagramme.html#definition",
+    "href": "4 Modellierung/Sequenzdiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "4 Modellierung",
+      "Sequenzdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sequenzdiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Sequenzdiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Sequenzdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Anwendungsfalldiagramm (use case diagram).html#definition",
+    "href": "4 Modellierung/Anwendungsfalldiagramm (use case diagram).html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nWas will der Nutzer von seinem System? Wer sind die Akteuere?\nWichtig: Anwendungsfalldiagramme sind ein Hilfsmittel zur Anforderungsermittlung und -verwaltung. Sie zeigen nur Zusammenhänge der an Anwendungsfällen beteiligten Modellelemente. Anwendungsfalldiagramme modellieren kein Verhalten und keine Abläufe!",
+    "crumbs": [
+      "4 Modellierung",
+      "Anwendungsfalldiagramm (use case diagram)"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Anwendungsfalldiagramm (use case diagram).html#siehe-auch",
+    "href": "4 Modellierung/Anwendungsfalldiagramm (use case diagram).html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Anwendungsfalldiagramm (use case diagram)"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Zustandsdiagramme.html#definition",
+    "href": "4 Modellierung/Zustandsdiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEin Zustandsdiagramm beschreibt die möglichen Zustände und die Zustandsübergange von den Klassen und Objekten. Das ist z.b. relevant für Reale Dinge in Interaktionsdiagramme mit interesanntem Verhalten ui\nIn UML kann man so alles definieren, dass wir eine Ausgabe bei Zustandsübergang machen (Mealy-Automat), oder bei Erreichen eines Zustands (Moore-Automat)\n\nZustandsübergang\n\n\n\nEreignisse\n\n\n\n\nStartzustände und Endzustände\n\n\n\nBedingungen\n\n\n\nAktionen\n\n\n\nOber und Unterzustände\nDas wird halt schnell unübersichtlich, deshalb führen wir Ober- und Unterzustände ein.\n\n\n\nZustände mit Gedächtnis\nJo wenn wir eif D verlassen und dann wieder in D reingehen, merken wir uns wo wir aufgehört haben lolz\n\n\n\nParallele Zustände",
+    "crumbs": [
+      "4 Modellierung",
+      "Zustandsdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Zustandsdiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Zustandsdiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Zustandsdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Modell und Realität.html#definition",
+    "href": "4 Modellierung/Modell und Realität.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEin Modell ist eine zwischenabbildung zwischen der Wirklichkeit und der konkreten (Objektorientierten) Programmierung. Das Modell abstrahiert die Wirklichkeit auf das Wesentliche. Wir benutzen Modelle um Erkenntnisse über Vergangenheit/Zukunft zu erhalten. In der Software wollen wir ein Verständnis über die spätere Software zu erhalten.\nEin Modell ist eine Abstraktion von der realen Welt, die für eine bestimmte Anwendung wichtige Elemente und Relationen enthält und für die Anwendung unwichtige Details auslässt, um die Komplexität zu reduzieren.",
+    "crumbs": [
+      "4 Modellierung",
+      "Modell und Realität"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Modell und Realität.html#charakeristika",
+    "href": "4 Modellierung/Modell und Realität.html#charakeristika",
+    "title": "Softwaretechnik 1",
+    "section": "Charakeristika",
+    "text": "Charakeristika\n\n\nProjektionsaspekt: Jedes Modell repräsentiert etwas anderes (sein Original).\nReduktionsaspekt: Ein Modell enthält nicht alle Attribute seines Originals. Es gibt geänderte oder neue Attribute.\nPragmatischer Aspekt Ein Modell kann sein Original unter bestimmten Annahmen ersetzen.",
+    "crumbs": [
+      "4 Modellierung",
+      "Modell und Realität"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Modell und Realität.html#siehe-auch",
+    "href": "4 Modellierung/Modell und Realität.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Modell und Realität"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sichtbarkeit.html#definition",
+    "href": "4 Modellierung/Sichtbarkeit.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nAlle Attribute und Methode eines Objektes kann man richtig geil Kapseln und so je nach wie man will von anderen Klassen zugreifen lassen.\n\nDie Frau Schäfer kann sich das unglaublich schlecht merken also sind die da nicht so pingelig.",
+    "crumbs": [
+      "4 Modellierung",
+      "Sichtbarkeit"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sichtbarkeit.html#merkblatt",
+    "href": "4 Modellierung/Sichtbarkeit.html#merkblatt",
+    "title": "Softwaretechnik 1",
+    "section": "Merkblatt",
+    "text": "Merkblatt",
+    "crumbs": [
+      "4 Modellierung",
+      "Sichtbarkeit"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sichtbarkeit.html#beispiel",
+    "href": "4 Modellierung/Sichtbarkeit.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "4 Modellierung",
+      "Sichtbarkeit"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Sichtbarkeit.html#siehe-auch",
+    "href": "4 Modellierung/Sichtbarkeit.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Sichtbarkeit"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#mini-steckbrief",
+    "href": "4 Modellierung/Klassendiagramme.html#mini-steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Mini Steckbrief",
+    "text": "Mini Steckbrief\n\n\n\n\ntest",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#definition",
+    "href": "4 Modellierung/Klassendiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEs geht hierbei um Modelierung von Daten.f\nMerke: Eine Klasse ist eine Sammlung von Objekten mit gemeinsamen Eigenschaften, Einschränkungen und Semantik.",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#objekt",
+    "href": "4 Modellierung/Klassendiagramme.html#objekt",
+    "title": "Softwaretechnik 1",
+    "section": "Objekt",
+    "text": "Objekt\n\nEin Objekt ist von einem anderen Objekt eindeutig unterscheidbar, also ein bestimmbares Element.\n\\(\\Omega\\) ist die Menge aller Objekte\n\nAttribut\nEin Attribut ist eine Eigenschaft die für alle Objekte eines Typs gelten. Z.b. Apfel: Farbe (rot/grün), Angebissen (Ja,nein)\n\n\nObjektidentität\nDie Existenz eines Objektes ist unabhängig von einen Attributwerten, sie sind also auch unterscheidbar, wenn ihre Attribute gleich sind. Also alle Äpfel die Rot und Angebissen sind, sind nicht gleich.\n\n\nZustand eines Objekte\nWenn zwei Objekte dieselben Zustände haben reagieren sie auf ihre Umwelt gleich (hmmm)\n\n\nKapselungsprinzip\nDer Zustand ist zwar nach außen sichtbar, er wird aber im Inneren des Objektes verwaltet.\nBeispiel: Wenn sich der Wert des Attributes „Restzeit“ eines Objektes „Eieruhr“ auf 0 ändert, wechselt die „Eieruhr“ in den Zustand „Klingeln“.\n\n\nMethoden\nMethoden können den Zustand eines Objektes verändern.\nProblem: Wann das ich welche Botschaft an ein Objekt senden\n\nAntwort: Das spezifiziert man mit einem Zustandsübergangsdiagramm (siehe später)\n\n\nMethodensignaturen\nEine Methodensignatur besteht aus:\n\nMethodenname\nRückgabetyp\nParameterliste",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#klasse",
+    "href": "4 Modellierung/Klassendiagramme.html#klasse",
+    "title": "Softwaretechnik 1",
+    "section": "Klasse",
+    "text": "Klasse",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#attribute",
+    "href": "4 Modellierung/Klassendiagramme.html#attribute",
+    "title": "Softwaretechnik 1",
+    "section": "Attribute",
+    "text": "Attribute\n\n\nAttribute Generell\n\n\n\nAttribut mit Datentyp (Als Referenz auf ein anderes Objekt)",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#operation",
+    "href": "4 Modellierung/Klassendiagramme.html#operation",
+    "title": "Softwaretechnik 1",
+    "section": "Operation",
+    "text": "Operation\n\n\n\nParameter für Operationen",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#assoziation",
+    "href": "4 Modellierung/Klassendiagramme.html#assoziation",
+    "title": "Softwaretechnik 1",
+    "section": "Assoziation",
+    "text": "Assoziation\n\nWenn zwei Klassen sich kennen sollen (z.b. Person und Firma), dann haben sie eine Assoziation\n\n\nEs gibt drei Typen von Assoziationen:\n\nAggregation\nDie Aggregation ist ein Spezialfall der Assoziation mit dem Namen „besteht aus“ und besteht zwischen dem Aggregat und seinen Teilen. Meist haben Aggregat und seine Teile eine gemeinsame Lebensdauer.\n\n\n\nKomposition\nEin Spezialfall der Aggregation ist die Komposition. Eine Komposition besteht zwischen einem Kompositum und seinen Komponenten.\nKompositum hat alleinige Verantwortung für Erzeugung/Löschung seiner Komponenten. Kompositum gelöscht à alle seine Komponenten gelöscht.\n\n\n\nVererbung\n“Vererbung braucht man eigentlich nur ganz selten und in den Klausuraufgaben schreien Formulierungen immer nach Vererbung.”\nEine Vererbungsbeziehung von einer Klasse K1 zu einer Klasse K2 ist eine Beschreibung der Tatsache, dass alle Objekte der Klasse K2 zusätzlich zu den in der Klasse K2 beschriebenen Eigenschaften auch alle Eigenschaften der Klasse K1 haben.",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#schnittstellen",
+    "href": "4 Modellierung/Klassendiagramme.html#schnittstellen",
+    "title": "Softwaretechnik 1",
+    "section": "Schnittstellen",
+    "text": "Schnittstellen\n\nEine Schnittstelle ist eine Art Klasse mit Methoden, ohne eine Konkrete Implementierung. Klassen, die eine Schnittstelle implementieren füllen diese Methoden mit Leben :O. Man kann dann diese Schnittstellenunterklasse verwenden wie das Liskovsche Substitutionsprinzip.",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Klassendiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Klassendiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Klassendiagramme"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Agile Prozesse.html#definition",
+    "href": "2 Vorgehensmodell/Agile Prozesse.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nWEniger “Stock im Arsch”, mehr kooperation und Flexibilität. Gehe insgesamt kleinschrittiger und enger mit dem Kunden vermascht vor.",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Agile Prozesse"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Agile Prozesse.html#siehe-auch",
+    "href": "2 Vorgehensmodell/Agile Prozesse.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Agile Prozesse"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Prototypmodell.html#definition",
+    "href": "2 Vorgehensmodell/Prototypmodell.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nMan entwickelt einen Prototyp vor dem eigentlichen Beginn der Entwicklung. Damit kann man dann dem Kunden etwas präsentieren wie das Programm am ende Aussehen kann um die Anforderungen besser zu klären und mit der Erfahrung das Projekt besser entwickeln. Aber so ein Prototyp ist halt sehr teuer :(\nKommt vermutlich nicht in der Klausur dran",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Prototypmodell"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Prototypmodell.html#siehe-auch",
+    "href": "2 Vorgehensmodell/Prototypmodell.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Prototypmodell"
+    ]
+  },
+  {
+    "objectID": "TEMPLATES/-.html#definition",
+    "href": "TEMPLATES/-.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition"
+  },
+  {
+    "objectID": "TEMPLATES/-.html#siehe-auch",
+    "href": "TEMPLATES/-.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas its der grund warum wir Kontrollflussgraphen machen,\nWir können dann Testen mit diesem Graphen und schauen, ob unser Test die Folgenden drei Kriterien erfüllt:\n\nAnweisungsüberdeckung (Verlangs die Ausführung aller Grundülöcke)\nZweigüberdeckung: Verlangt das Traversieren aller Zweige\nPfadüberdeckung: Verlangt die Ausführung aller Pfade (also alle möglichen Kombinationen von wie ich durch den Kontrollflussgraphen durchgehen kann)",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Überdeckungskriterien"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Überdeckungskriterien"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nSpezielle systemtests, bei denen der Kunde eingebunden ist. Man geht mit ihm dann die tests (die er auch selber mitgebracht hat) durch.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Abnahmetests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Abnahmetests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nFunktionaler Systemtests - Testet Funktionale Anforderungen\nnichtfunktionale Systemtests - Testet nichtfunktionalle Anforderungen.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Systemtests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Systemtests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nWir wandeln unseren Code zuerst in Grundblöcke an nach den Sprüngen. Dann schauen wir, ob ein Sprung innerhalb eines Block endet und teilen ihn dann gegebenenfalls auf.\nWichtige Sachen, die ich schonmal vergessen habe:\n\nAlle Blöcke durchnummerieren\nnstart nicht vergessen!",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Kontrollflussgraph"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Kontrollflussgraph"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDamit ist gemeint, dass wir die einzelnen Komponenten schrittweise zum Gesamtsystem testen und zum Gesamtsystem zusammenfügen.\nUnmittelbar ist schlecht, denn dafür muss erst das ganze System fertig sein :(\nVorgehensorientiert: Integrationsreihenfolge je nach Systemarchitektur, genauer plan was getan werden soll\nTestzielorientiert: Testfälle schreiben anhand der Testziele, Ziel ist möglich\nBig bang: Wir nehmen alle unsere Module und testen sie alle auf einmal und hoffen, dass es funktioniert\nTop-down: Hier fangen wir in der höchsten hierarischen schicht (meistens user-interface) an und gehen nach unten durch und testen ob alles klapp\nBottop-up: Wir fangen ganz unten in der hierachischen schicht an und gehen nach oben\nHardest-first: Wir testen die kritischte schicht als erstes, die erste die wir testen ist dann die kritischte\nOutside-in: top-down und bottom-up gleichzeitig, wir gehen aber von der obersten schicke und von der unteren schicht durch. (sehr gut scheinbar!)\nInside-out: so invers\nNach verfügbarkeit: Wir testen halt die Sachen, die wir schon geschrieben haben\nFunktionsorientiert: Wir testen anhand den funktionalen testfällen und orientieren und an den funktionalen Anforderungen",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Integrationstest"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Integrationstest"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#definition",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#steckbrief",
+    "href": "7 Architektur/Verteilungsdiagram.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#beispiel",
+    "href": "7 Architektur/Verteilungsdiagram.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#definition",
+    "href": "7 Architektur/Verteilungsdiagram.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\n\nNodes\n\n\n\nKommunikationskanäle",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
+    "href": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Einleitung.html#definition",
+    "href": "7 Architektur/Einleitung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDiese Architekturentwürfe sind gut, weil man von Anfang an Zielgerichtet und effizienter sind und alle Stakeholder das große und ganze verstehen können",
+    "crumbs": [
+      "7 Architektur",
+      "Einleitung"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Einleitung.html#siehe-auch",
+    "href": "7 Architektur/Einleitung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Einleitung"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Modell-view-controller.html#definition",
+    "href": "7 Architektur/Modell-view-controller.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDer Kern ist, dass wir eine Datenspeicherung im Model haben, sowie einen View und Controller.\nDefinition vom Tut:\nBei einer solchen Architektur trennt man die Datenspeicherung (Modell) von der Darstellung (Präsentation) ab. Als Schnittstelle dient beiden Teilen die Steuerung.\nMVC ist ein spezifischeres Muster als das Schichtenmodell. Die Schichten sind nicht so fest umgesetzt und nicht so fest getrennt. Es sind nicht sher die Aufgaben getrennt (wie bei der Schichtenarchitektur), sondern eher die Anzeige, Verarbeitung, Speicherung.",
+    "crumbs": [
+      "7 Architektur",
+      "Modell-view-controller"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Modell-view-controller.html#siehe-auch",
+    "href": "7 Architektur/Modell-view-controller.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Modell-view-controller"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Schichtenarchitektur.html#steckbrief",
+    "href": "7 Architektur/Schichtenarchitektur.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Schichtenarchitektur"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Schichtenarchitektur.html#beispiel",
+    "href": "7 Architektur/Schichtenarchitektur.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Schichtenarchitektur"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Schichtenarchitektur.html#definition",
+    "href": "7 Architektur/Schichtenarchitektur.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "7 Architektur",
+      "Schichtenarchitektur"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
+    "href": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Schichtenarchitektur"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html",
+    "href": "7 Architektur/Komponentendiagramme.html",
+    "title": "Softwaretechnik 1",
+    "section": "",
+    "text": "#",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html#komponentendiagramme",
+    "href": "7 Architektur/Komponentendiagramme.html#komponentendiagramme",
+    "title": "Softwaretechnik 1",
+    "section": "Komponentendiagramme",
+    "text": "Komponentendiagramme",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html#beispiel",
+    "href": "7 Architektur/Komponentendiagramme.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nKomponentendiegramme zeigen so ein bisschen die Architektur und stellen dar, wie sich das System zusammensetzt.",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html#was-ist-eine-komponente",
+    "href": "7 Architektur/Komponentendiagramme.html#was-ist-eine-komponente",
+    "title": "Softwaretechnik 1",
+    "section": "Was ist eine Komponente?",
+    "text": "Was ist eine Komponente?\n\n\n\nSchnittstellen",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html#externe-interfaces---ports",
+    "href": "7 Architektur/Komponentendiagramme.html#externe-interfaces---ports",
+    "title": "Softwaretechnik 1",
+    "section": "Externe Interfaces - Ports",
+    "text": "Externe Interfaces - Ports",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Komponentendiagramme.html#siehe-auch",
+    "href": "7 Architektur/Komponentendiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Komponentendiagramme"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
+    "href": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Peer-to-Peer Network"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#beispiel",
+    "href": "7 Architektur/Peer-to-Peer Network.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nSkype vor Microsoft",
+    "crumbs": [
+      "7 Architektur",
+      "Peer-to-Peer Network"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#definition",
+    "href": "7 Architektur/Peer-to-Peer Network.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nSind super für dezentrales file-sharing von legalem ;) kontent\nIdee: jeder Peer kann gleichzeitig client/server sein.",
+    "crumbs": [
+      "7 Architektur",
+      "Peer-to-Peer Network"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
+    "href": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Peer-to-Peer Network"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Blackboard.html#steckbrief",
+    "href": "7 Architektur/Blackboard.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief\n\n????????",
+    "crumbs": [
+      "7 Architektur",
+      "Blackboard"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Blackboard.html#beispiel",
+    "href": "7 Architektur/Blackboard.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Blackboard"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Blackboard.html#siehe-auch",
+    "href": "7 Architektur/Blackboard.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Blackboard"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
+    "href": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Klient-Dienstgeber"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#beispiel",
+    "href": "7 Architektur/Klient-Dienstgeber.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Klient-Dienstgeber"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
+    "href": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Sie auch",
+    "text": "Sie auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Klient-Dienstgeber"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
+    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "7 Architektur",
+      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
+    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Architektur",
+      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#definition",
+    "href": "11 Qualitätssicherung/Inspektion.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDie Inspektion ist eine formale Qualitätssicherungstechnik, bei der Anforderungen, Entwurf oder Code eingehend durch eine vom Autor verschiedene Person oder eine Gruppe von Personen begutachtet werden. Zweck ist das Finden von Fehlern, Verstößen gegen Entwicklungsstandards und anderen Problemen.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#rollen",
+    "href": "11 Qualitätssicherung/Inspektion.html#rollen",
+    "title": "Softwaretechnik 1",
+    "section": "Rollen",
+    "text": "Rollen\n\n\nInspektionsleiter: leitet alle Phasen der Inspektion\nModeration: leitet die Gruppensitzung (meist der Inspektionsleiter)\nInspektoren: prüfen das Dokument\nSchriftführer: protokolliert Defekte in der Gruppensitzung\nEditor: klassifiziert und behebt die Defekte(meist der Autor)\nAutor: hat das Dokument verfasst.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#ablauf",
+    "href": "11 Qualitätssicherung/Inspektion.html#ablauf",
+    "title": "Softwaretechnik 1",
+    "section": "Ablauf",
+    "text": "Ablauf\n\n\nVorbereitung\nTeilnehmer, Rollen, Dokumente, Formulare, Lesetechniken und Zeitlichen Ablauf (mit kick-off treffen) Planen\nIndividuelle Fehlersuche\nJeder Inspektor prüft für sich das Dokument (1 Seite pro Stunde)\nBenutzt vereinbarte Lesetechnik\nSchreibt alle Problempunkte und die genaue Stelle im Dokument auf\nGruppensitzung (Dauer: 2h)\nIndividuell gefunende Problempunkte sammeln\nAlle Problempunkte besprechen, fragen klären, weiter Problempunkte sammeln, die gerade spontan gefunden werden, verbesserungsvorschläge Sammeln, ALTERNATIVE MEINUNGEN NICHT DISKUTIEREN sondern protokollieren\nNachbereitung\nListe mit allen Problempunkten wird an den Editor des Dokumentes weitergeleitet\nEditor identifiziert tatsächliche Defekte und klasifiziert sie\nEditor leitet dann Änderung des Dokumentes ein\nAlle Problempunkte werden bearbeitet\nDeren Bearbeitung wird Überprüft",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nUm einen Kontrollflussdiagramm zu erstellen wandeln wir unseren Code zuvor in eine Zwischensprache um, die aus Grundblöcken besteht. Ein Grundblock ist eine maximal lange Folge von Anweisungen der Zwischensprache ohne Sprungbefehl am Ende.\nDies ist auch nirwendig um Vollständigkeitskriterien zu definieren.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Zwischensprache"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Zwischensprache"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nSchlecht:\n\nprintln(…)\nNur mit Debugger\nNur mit Testskripen und wiederum Konsolenausgaben\n\nBesser:\n\nZusicherungen (Assertions)\n\nNoch besser:\n\nAutomatisierte Testgälle (Junit) und Mocks schreiben (Mockito)",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Testwerkzeuge"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Testwerkzeuge"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Einführung.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Einführung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nTesten können nie beweisen, dass der Code funktioniert sondern nur zeigen, dass gewisse Fehler ausgeschlossen sind.\nEs gibt dabei einige Test\nWir betrachten vorallem das Kontrollflussorientierte Testen\nMan unterscheidet zwischen folgenden Fehlerklassen:\n\nAnforderungsfehler (Defekt im Pflechtenheft) (Anforderungen sind nicht richtig, unvollständig, nicht umsetzbart)\nEmtwirfsfehler (Defekt in der Spezifikation) (Anforderung verstanden aber falsch umgesetzt)\nImplementierungsfehler (Defekt im Code)\n\nEs gibt dabei folgende Fehlerarten\n\nVersagen oder Ausfall “Es funktioniert nicht”\nDefekte (Mangel, der eventuall ein Versagen versursachen kann)\nIrrtum bzw Herstellerfehler (die Menschlichte Aktion, die einen Fehler verursagt vom Entwickler)",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Einführung"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Einführung.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Einführung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Einführung"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nMan hat keinen Code, sondern nur eine Beschriebung davon, wie sich das Programm verhält. Wir leiten",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Blackboxtesting"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
+    "title": "Softwaretechnik 1",
+    "section": "Übungsblatt 5 Copy paste (delete me)",
+    "text": "Übungsblatt 5 Copy paste (delete me)\n\n\\[D_{\\text{valid week}}= [1,52]\\]\\[D_{\\text{invalid week}}= \\Bbb Z \\setminus [1,52]\\]\\[W_{\\text{valid day}}= [1,7]\\]\\[W_{\\text{invalid day}}= \\Bbb Z [1,7]\\]\nTestfall 1 (Day wertebereich):\n\\(D_\\text{valid week},D_{\\text{invalid week}}\\)\nday | week | output |\n— | —- | —— |\n1 | -5 | FEHLER |\n1 | 4 | Liste |\n1 | 90 | FEHLER |\nTestfall 2 (Week wertebereich)\n\\(W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n-4 | 13 | FEHLER |\n4 | 13 | Liste |\n10 | 13 | FEHLER |\nTestfall 3 (Grenzwerte)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n——— | ——— | —— |\n-1 | 1 | FEHLER |\n0 | 1 | FEHLER |\n8 | 1 | FEHLER |\nINTLIMIT | 1 | FEHLER |\n-INTLIMIT | 1 | FEHLER |\n1 | -1 | FEHLER |\n1 | 0 | FEHLER |\n1 | 53 | FEHLER |\n1 | INTLIMIT | FEHLER |\n1 | -INTLIMIT | FEHLER |\nTestfall 4 (Normale Interaktion)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n1 | 1 | Liste |\n7 | 1 | Liste |\n1 | 51 | Liste |\n1 | 52 | Liste |\nDiese Testfällt sind sinnvoll, da sie\n\nGenerell schauen, ob einfache Überschritte des Grenzrahmens abgefangen werden\nFehlverhalten an den Grenzwerten getestet wird\nFehlverhalten an den Extremwerten (INTLIMIT) getestet wird\nEine ganz Normale Interaktion überprüft wird\n\nDies sind Fälle, die sehr oft auftreten und hier sehr günstig überprüft werden können.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Blackboxtesting"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Blackboxtesting"
+    ]
+  },
+  {
+    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
+    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
+    "title": "Softwaretechnik 1",
+    "section": "Definition Softwaretechnik",
+    "text": "Definition Softwaretechnik\n\nSoftwaretechnik (engl. Softwareenigneering) ist die Lehre von der Softwarekonstruktion; der systemischen Entwicklung und Pflege von Softwaresystemen.",
+    "crumbs": [
+      "1 Einführung und Überblick",
+      "Inhalt der Vorlesung"
+    ]
+  },
+  {
+    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
+    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Einführung und Überblick",
+      "Inhalt der Vorlesung"
+    ]
+  },
+  {
+    "objectID": "Testfile.html",
+    "href": "Testfile.html",
+    "title": "Softwaretechnik 1",
+    "section": "",
+    "text": "Hello this is a test! Will this be displayed in the website?",
+    "crumbs": [
+      "Testfile.html"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Wasserfallmodell.html#definition",
+    "href": "2 Vorgehensmodell/Wasserfallmodell.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Wasserfallmodell"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Wasserfallmodell.html#siehe-auch",
+    "href": "2 Vorgehensmodell/Wasserfallmodell.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Wasserfallmodell"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/eXtreme Programming..html#definition",
+    "href": "2 Vorgehensmodell/eXtreme Programming..html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nKontantes Entwickeln, Testen, Sichern und Integrieren. Konsequentes Refaktorisieren. Dabei ist alles automatisiert und verschiedene Praktiken (Paarprogrammieren / Testgetriebene Entwicklung) möglich.\nBeispiel: Testgetrieben: M",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "eXtreme Programming."
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/eXtreme Programming..html#siehe-auch",
+    "href": "2 Vorgehensmodell/eXtreme Programming..html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "eXtreme Programming."
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Scrum.html#definition",
+    "href": "2 Vorgehensmodell/Scrum.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\n\nMan schreibt die Anforderungen als einen Stack sozusagen auf.\nMan macht zuerst eine Sprintplanung (ein Sprint = ein Monat) von einem Objekt aus der Anforderung\nMan hat tägliche Treffen um zu schauen wie man vorrankommt und um zu schauen ob man noch im Zeitplan ist.\nNach dem Sprint macht man einen Sprint Review (begriff klären) und eine Spring Retrospective\nDann fliegt man wieder von vorne an :)\n\nEffekte:\n\nEs gibt bei Scrim burndown charts (dies ist Äquivalent zu der größe vom Anforderungsstack in der Zeit)\n\nVorteile:\n\nSehr produktiv\nHohe Anpassungsfähigkeit (der Kunde kann nach jedem Sprint oder davor einbezogen werdne)\nGeringes Risiko\n\nNachteile\n\nExplizite Modellierung von Anforderungen sind schwer :(\nMit großen Teams ist das auch schwer :(",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Scrum"
+    ]
+  },
+  {
+    "objectID": "2 Vorgehensmodell/Scrum.html#siehe-auch",
+    "href": "2 Vorgehensmodell/Scrum.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Vorgehensmodell",
+      "Scrum"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Interaktionsdiagramme.html#definition",
+    "href": "4 Modellierung/Interaktionsdiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDie Interaktionsdiagramme zeigen die für einen bestimmten Zweck notwendigen Interaktionen, dafür sind die Klassendiagramme die Grundlagen.\n\nKollaborationsdiagramme\nDiese erlauben es und kommunikationen zwischen Klassen einzuzeichnen\n\n\n\nZeitdiagram\nZeigen so bisschen die Veränderung der Enums, Variablen unso\n\n\n\nInteraktionsübericht",
+    "crumbs": [
+      "4 Modellierung",
+      "Interaktionsdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Interaktionsdiagramme.html#sequenzdiagramme",
+    "href": "4 Modellierung/Interaktionsdiagramme.html#sequenzdiagramme",
+    "title": "Softwaretechnik 1",
+    "section": "Sequenzdiagramme",
+    "text": "Sequenzdiagramme\n\nWir beschränken uns hier in der Vorlesung auf diese.\nSequenzdiagramme sind exemplarisch. Sie wurden ursprünglich für die Modelierung von Telekommunikationsdienste entwickelt. Die Zeit läuft in Sequenzdiagramme von oben nach unten und es ist die frage immer “was muss wo passieren damit was wo passieren kann”. Sequenzdiagramme haben den vorteil, dass sie intuitiv sind und um Integrationstestfälle, Protokolle (für verbotenes verhalten) und erlaubten nachrichtenverlauf zu beschreiben.\nMan kann mit Sequenzdiagrammen sogar Synchrones verhalten so irgendwie darstellen ob etwas als sofortige Antwort passiert. (KEINE VOLLSTÄNDIGE VERHALTENSBESCHREIBUNG! NUR EXEMPLARISCH)\n\nBeispiel\n\n\n\nGrundlegende Elemente\n\n\n\n\nNachrichten\n\n\nWas ich senden/empfangen kann sehe ich anhand der Sichtbarkeit der Methoden der Senderklasse\n\n\nObjekterzeugung und Löschung\n\n\n\nKoole Kontrollfluss Kalküle\n\nBsp, alt als verzweigung, loop als schleife. Beides Sparsam verwenden!",
+    "crumbs": [
+      "4 Modellierung",
+      "Interaktionsdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Interaktionsdiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Interaktionsdiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Interaktionsdiagramme"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Was ist ein gutes Modell.html#definition",
+    "href": "4 Modellierung/Was ist ein gutes Modell.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEin Modell ist dann gut, wenn es in der Realität eine Beziehung gibt, dann muss ich das Modell auf die Realität projezieren konnen, und diese Beziehung in der Realität muss sich auch auf die Modelle übertragen. Also man kann sagen, dass das Folgende Diagramm kommutiert:",
+    "crumbs": [
+      "4 Modellierung",
+      "Was ist ein gutes Modell"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Was ist ein gutes Modell.html#siehe-auch",
+    "href": "4 Modellierung/Was ist ein gutes Modell.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Was ist ein gutes Modell"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#steckbrief-und-überblick",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#steckbrief-und-überblick",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief und Überblick",
+    "text": "Steckbrief und Überblick",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#definition",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas ist ein Verhaltensdiagram typ welches Abläufe u.a. in Use Cases beschreibt. Diese können z.b.\n\nBetriebswirtschaftliche Prozesse\nTechnische Abläufe von Workflows\nKonkrete algorithmische Abläufe\n\nDiese bestehen ausw\n\nAktions-, Objekt- und Kontrollknoten\nObjekt und Kontrollflüsse",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#konzepte",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#konzepte",
+    "title": "Softwaretechnik 1",
+    "section": "Konzepte",
+    "text": "Konzepte\n\n\nEinfache Konzepte:\n\n\nModellierung des Kontrollflusses\n\n\n\nParallelität\nEine Transition wird auf mehrere Ziele Verteilt.\n\nDie Join node wird nur ausgeführt, wenn alle parralelen Prozesse verfügbar sind.",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#beispiel",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#objektknoten",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#objektknoten",
+    "title": "Softwaretechnik 1",
+    "section": "Objektknoten",
+    "text": "Objektknoten\n\nDies sind die Eingabe- und Ausgabedaten einer Aktion.",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#partitionen-verantwortlichkeitsbereiche",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#partitionen-verantwortlichkeitsbereiche",
+    "title": "Softwaretechnik 1",
+    "section": "Partitionen / Verantwortlichkeitsbereiche",
+    "text": "Partitionen / Verantwortlichkeitsbereiche\n\nDiese können beschreiben wer / welches System für einen Knoten verantwortlich ist oder welche gemeinsame Eigenschaft sie kennzeichnet. Das kann in der Klausur abgefragt werden.",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Aktivitätsdiagramme.html#siehe-auch",
+    "href": "4 Modellierung/Aktivitätsdiagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Systemmodelierung.html#definition",
+    "href": "4 Modellierung/Systemmodelierung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "4 Modellierung",
+      "Systemmodelierung"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Systemmodelierung.html#siehe-auch",
+    "href": "4 Modellierung/Systemmodelierung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Systemmodelierung"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Liskovsches Substitutionsprinzip.html#definition",
+    "href": "4 Modellierung/Liskovsches Substitutionsprinzip.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas Prinzip besagt folgendes: Wenn U eine Unterklasse von O ist, muss ich alle Auftretungen von O durch U ersetzten können müssen, und das Programm muss noch funktionieren müssen.",
+    "crumbs": [
+      "4 Modellierung",
+      "Liskovsches Substitutionsprinzip"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Liskovsches Substitutionsprinzip.html#folgerungen",
+    "href": "4 Modellierung/Liskovsches Substitutionsprinzip.html#folgerungen",
+    "title": "Softwaretechnik 1",
+    "section": "Folgerungen",
+    "text": "Folgerungen\n\n\nAlle Eigenschaften der Oberklasse stehen der Unterklasse zur verfügung.\nDie Unterklasse kann noch zusätzliche Eigenschaften definieren um die Oberklasse spezieller zu machen\nDie Unterklasse darf aber keine Eigenschaften Weglassen.\n- Dann ist es nicht mehr so einfach eine Unterklasse. Das Liskovsche Substitutionsprinzip wäre verletzt.\nDie Unterklasse hat die gleichen oder schwächere Vorbedingungen als die Oberklasse.\nDie Unterklasse bietet die gleichen oder stärkeren Nachbedingungen wie die Oberklasse.\n! Unterklassenmethoden dürfen nicht mehr erwarten und weniger liefern.",
+    "crumbs": [
+      "4 Modellierung",
+      "Liskovsches Substitutionsprinzip"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Liskovsches Substitutionsprinzip.html#parameter-varianz",
+    "href": "4 Modellierung/Liskovsches Substitutionsprinzip.html#parameter-varianz",
+    "title": "Softwaretechnik 1",
+    "section": "Parameter-Varianz",
+    "text": "Parameter-Varianz\n\n\nVarianz - Modifikation der Typen der Parameter einer überschriebenen Methode\nKovarianz - Verwendung einer Spezialisierung des Parametertyps in der überscheibenen Methode\nKontravarianz - Verwendung einer Verallgemeinrung des Parametertyps in der überschreibenden Methode\nInvarianz - keine Modifikation des Typs",
+    "crumbs": [
+      "4 Modellierung",
+      "Liskovsches Substitutionsprinzip"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Liskovsches Substitutionsprinzip.html#siehe-auch",
+    "href": "4 Modellierung/Liskovsches Substitutionsprinzip.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Liskovsches Substitutionsprinzip"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/UML - Unified Modeling Language.html#modellarten",
+    "href": "4 Modellierung/UML - Unified Modeling Language.html#modellarten",
+    "title": "Softwaretechnik 1",
+    "section": "Modellarten",
+    "text": "Modellarten\n\n\nFunktionales Modell (aus dem Lastenheft) Szenarien und Anwendungsfall-Diagramme (scenarios, use case diagrams)\nObjektmodell Klassen- und Objektdiagramme (class and object diagrams)\nDynamisches Modell\n\nSequenzdiagramme (sequence diagrams)\nZustandsdiagramme (state chart diagrams)\nAktivitätsdiagramme (activity diagrams)\n\n\nDas UML ermöglich es sich diese Diagrammtypen anzuschauen und diese zu verknüpfen.",
+    "crumbs": [
+      "4 Modellierung",
+      "UML - Unified Modeling Language"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/UML - Unified Modeling Language.html#siehe-auch",
+    "href": "4 Modellierung/UML - Unified Modeling Language.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "UML - Unified Modeling Language"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Polymorphie.html#definition",
+    "href": "4 Modellierung/Polymorphie.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nPolymorphie bedeutet Vielgestaltigkeit. Es gibt da zwei Möglichkeiten:\n\nstatisch (Überladen) (es kann mehrere Methoden mit dem gleichen Namen geben aber unterschiedlicher Signatur)\ndynamisch (“Verwendung der Vererbung”) (Es wird diejenige Methode in der Signatur aufgerufen, die in der Vererbungshierarchie am speziellsten ist.)",
+    "crumbs": [
+      "4 Modellierung",
+      "Polymorphie"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Polymorphie.html#beispiel",
+    "href": "4 Modellierung/Polymorphie.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "4 Modellierung",
+      "Polymorphie"
+    ]
+  },
+  {
+    "objectID": "4 Modellierung/Polymorphie.html#siehe-auch",
+    "href": "4 Modellierung/Polymorphie.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Modellierung",
+      "Polymorphie"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Reifegradmodelle.html#definition",
+    "href": "14 Projektmanagement/Reifegradmodelle.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nEs gibt so ein ISO 9000 und 9001 die analysiseren, wie Qualität die Organisation eines Unternehmes ist.\nMessen die Reife vom Entwicklungsprozess. Die Softwarequalität wird hierbei nicht gemessen! Es wird die organisation geemessen.\nCMM ist ein Reifegradmodell, welches die Qualität eines Teams misst.\n\nDabei gibt es in CMM Modell 5 Stufen:",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Reifegradmodelle"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Reifegradmodelle.html#siehe-auch",
+    "href": "14 Projektmanagement/Reifegradmodelle.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Reifegradmodelle"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.html#definition",
+    "href": "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\n\nDefinition des Projektumfangs\nDie Komplexität (in dem wir die Aufgabend passend runterbrechen)\nDas Vorgehensmodell\nPlanen (wer macht was, welche Elemente)\nSteuerung und Controlling (sind wir nochi m Plan)\nÄnderungsmanagement (wie gehen wir mit Änderungen um?)\nRisikomanament\nReporting (Statusberichte geben)\nTeammanagement (Wie gehe ich im Team um, oft ist der Erfolg vom Team abhängig, aufgabe eines Projektmanagers ist es dass der Projektmanager managed dass das Tiem gut zuammenarbeitet)\nOffene Kommunikation und Feedback\nProjekterfolg",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Wichtige Aspekte des Projektmanagement"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.html#siehe-auch",
+    "href": "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Wichtige Aspekte des Projektmanagement"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Projektstrukturplan.html#definition",
+    "href": "14 Projektmanagement/Projektstrukturplan.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nIUstr ein hierachisch gegliedertes Dokument, welches die Stuktur des Projekts abbilddet und die Aufgaben und Arbeitspakete zeigt und zeigt was zu tun ist. Dadurch kann man Aufgaben zuweisen und planen was noch getan werden muss und dann wie gesagt wer die noch tun muss. Wir machen das wie divide an conquer.",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Projektstrukturplan"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Projektstrukturplan.html#siehe-auch",
+    "href": "14 Projektmanagement/Projektstrukturplan.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Projektstrukturplan"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Gantt-Diagramme.html#definition",
+    "href": "14 Projektmanagement/Gantt-Diagramme.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nMan sieht die Zeitliche abfolge unserer Arbeitsschritte und wie die einzelnen Arbeitsschritte ergebnisse für die anderen Pakete interagieren",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Gantt-Diagramme"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Gantt-Diagramme.html#siehe-auch",
+    "href": "14 Projektmanagement/Gantt-Diagramme.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Gantt-Diagramme"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Aufwandsschätzung.html#zusammenfassung",
+    "href": "14 Projektmanagement/Aufwandsschätzung.html#zusammenfassung",
+    "title": "Softwaretechnik 1",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Aufwandsschätzung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Aufwandsschätzung.html#definition",
+    "href": "14 Projektmanagement/Aufwandsschätzung.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nTwain: “Vorraussagen sind schwierig, vorallem wenn sie die Zukunft betreffen.”; wie viel kann ich meinen Mitarbeitern auch zahlen, dass ich dem Aufwand gerecht werde und ich aus dem Bauch raus entscheide.\nEs gilt aber auch das deutsche Sprichwort, was in der VL zum Thema Schätzung gefallen ist: “Wer billig kauft kauft zweimal”\n\nWarum schätzt man, wenn es so schwer ist?\nMan sagt, lieber habe ich eine grobe schätzung als garkeine?\n\nMan muss erstmal alle Faktoren Sammeln und dann anhand diesen eine Schätzung durchführen. (Faktoren: Welche sind die Mitarbeiter, was ist das Team, was ist der Kunde, was für ein hs ist der Kunde, was sind die Funktionalen Anforderungen, was sind die nichtfunktionalen Anforderungen)\nMan kann hier dann erstmal Top-Down schätzen: Wenn ich einen festen Kostenrahmen habe, wie viel dürfen dann die einzelnen Arbeitspakete kosten?\nOder Bottom-Up: Wenn ich das alles machen will, wie viel kostet es dann? Dann stellt man meist fest, wie teuer das eigentlich ist und lässt dann paar Anforderungen weg.\nWir wollen schätzen, wie viel ein Projekt kostet etc. Dafür gibt es so ein Teufelsquadrat\n\n\nMethoden zum Schätzen:\n\nAnalogiemethode: Schätze anhand ähnlicher, bereits durchgeführter Projekte.\nKennzahlmethode: Schätze Kennzahlen anhand Erfahrung (Quellcodemenge), berechne dann anhand abgeschlossener Projekte\nAlgorithmische Methode: Wir bestimen viele Kennzahlen und ein algorithmus gibt uns die Kosten (magisch)\nExpertenschätzung: Frag halt wen der das weiß.\nBei letzterem wird das Delphi Verfahren eingesetzt:\n- Standart Delphi: Experten schätzen unabhängig (und ihre Ergebnisse werden gemittelt oder so idk maybe)\n\n- Breitband Deplhi: Experten diskutieren zwischenergebnisse\n\n  Aber: Wem glauben die Chefs? Dem Experten der sich am besten verkaufen kann?",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Aufwandsschätzung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Aufwandsschätzung.html#siehe-auch",
+    "href": "14 Projektmanagement/Aufwandsschätzung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Aufwandsschätzung"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Netzpläne.html#definition",
+    "href": "14 Projektmanagement/Netzpläne.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\n\n\nWir schauen uns in der Projektplanung eher die Vorgangsknotennetzpläne an. (Metra Potentialmethode).\nEs gibt bei der MPM einen Frühsten und Spätesten Start und Endzeitpunkt. Die Differenzen zwischen Frühsten und Spätesten Zeitpunkten sind dann jeweils die Puffer. Wenn wir eine Bachelorarbeit planen dann macht es auch Sinn Puffer einzuplanen (weil man intuitiv meist zu optimistisch plant)\nDurch sie können wir Ereignisse, Vorgänge und Abhängigkeiten visualisieren.\nBeispiel:\n\n\nKritischer Pfad:\nKritische Pfäde sind Vorgände, die keinen Puffer haben\n\nIn Netzplänen kann man dann gut diese kritischen Pfäde analysieren und schauen wo man das Risiko dieser kritischen Pfäde minimieren kann.",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Netzpläne"
+    ]
+  },
+  {
+    "objectID": "14 Projektmanagement/Netzpläne.html#siehe-auch",
+    "href": "14 Projektmanagement/Netzpläne.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "14 Projektmanagement",
+      "Netzpläne"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#definition",
+    "href": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nBietet eine Schnittstelle zum Erzeugen von Familien verwandter oder voneinander abhängiger Objekte, ohne ihre konkreten Klassen zu benennen.",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Erzeugungsmuster",
+      "Abstract Factory"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#struktur",
+    "href": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#struktur",
+    "title": "Softwaretechnik 1",
+    "section": "Struktur",
+    "text": "Struktur",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Erzeugungsmuster",
+      "Abstract Factory"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Erzeugungsmuster",
+      "Abstract Factory"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Composite.html#definition",
+    "href": "9 Entwurfsmuster/Strukturmuster/Composite.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Composite.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Composite.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "TITLE"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Decorator.html#definition",
+    "href": "9 Entwurfsmuster/Strukturmuster/Decorator.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nZweck: Fügt dynamisch neue Funktionalität zu einem Objekt hinzu. Kann alternativ zu Vererbung verwendet werden.",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Decorator"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Decorator.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Decorator.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Decorator"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Adapter.html#steckbrief",
+    "href": "9 Entwurfsmuster/Strukturmuster/Adapter.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Adapter"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Adapter.html#zweck",
+    "href": "9 Entwurfsmuster/Strukturmuster/Adapter.html#zweck",
+    "title": "Softwaretechnik 1",
+    "section": "Zweck",
+    "text": "Zweck\n\nPasse die Schnittstelle einer Klasse an eine andere von ihren Clients erwartete Schnittstelle an\nDas Adaptermuster lässt Klassen zusammenarbeiten, die wegen inkompatibler Schnittstellen ansonsten dazu nicht in der Lage wären.",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Adapter"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Strukturmuster/Adapter.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Strukturmuster/Adapter.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Strukturmuster",
+      "Adapter"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Strategy.html#definition",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Strategy.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "9 Entwurfsmuster/Verhaltensmuster/Strategy.html#siehe-auch",
+    "href": "9 Entwurfsmuster/Verhaltensmuster/Strategy.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Strategy"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Anforderungen.html#definition",
+    "href": "3 Anforderungsanalyse/Anforderungen.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nIntuitiv: Eine Anforderung ist eine Beschreibung dessen, was das Produkt machen soll.\nIEEE: 610.12\n(1.) A condition or capability needed by a user to solve a problem or achieve an objektive\nBenutzerandorfrrungen\nAussagne in natürlicher Sprache, sowie Diagramme zur Beschreibung der Diensta, die das System leisten soll, und der Randbedringnungen, unter denen es Betrieben wird.\nSystemanforderungen:\nDetaillierte Festeletung von Funktionen, Diensten und Beschränknungen. Beschreibung, was implementiert werden soll.",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Anforderungen.html#stakeholder",
+    "href": "3 Anforderungsanalyse/Anforderungen.html#stakeholder",
+    "title": "Softwaretechnik 1",
+    "section": "Stakeholder",
+    "text": "Stakeholder\n\nDiejenigen, die das Produkt nutzen sind eigentlich oft viel mehr Parteien als man denkt. Es sind zum Beispiel natürlich die Benutzer, aber auch der Kunde, sowie die Wartung, unser Projektteam und auch die Authoritäten, die bestimmen wie die Sachen eingestellt sind.",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/Anforderungen.html#siehe-auch",
+    "href": "3 Anforderungsanalyse/Anforderungen.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#smarter-trick",
+    "href": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#smarter-trick",
+    "title": "Softwaretechnik 1",
+    "section": "Smarter Trick",
+    "text": "Smarter Trick\n\nBei nichtfunktionalen Anforderungen kann man sich immer “WIE” fragen, also “Die Kommunikation mit der Küche findet drahtlos statt” (Wie findet die Kommunikation statt?). Bei funktionalen Anforderungen kann man sich fragen Was soll das System leisten?",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "(nicht)-Funktionale Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#definition",
+    "href": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nFunktionale Anfoerdungen\n\nWas soll das System leisten\nWelche Dienste soll es anbieten\nEingabe, Verarbeitungen, Ausgaben\nVerhalten in bestimmten Situationen; explizit.\n\nNicht-Funktionale Anforderungen\n\nWie soll das System Arbeiten\nQualitätsanforderungen wie Performanz und Zuverlässigkeit\nAnforderungen an die Benutzbarkeit, Accessibility.",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "(nicht)-Funktionale Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#beispiel",
+    "href": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nFunktionale Anforderungen\n\nJeder Benutzer soll ein eindeutiger Bezeichner (User-ID) zugeordnet werden\nDas System macht nachts ein Backup\nJeder Benutzer kann seinen Bezeichner einsehen\n\nNicht-Funktionale Anforderungen\n\nDie Sprache ist Deutsch\nDas System muss in Java entwickelt sein und in Sun Java VM 1.5 laufen\nDie deutsche Datenschutzrichtlinie muss erfüllt sein\nDer Speicher darf 512MB nicht überschreiten\nDie Ausgabe muss schön formatiert sein :-=)\n\nAufgabe in der VL:\nF:\nMuss ein Gesicht erkennen können.\n(Aus einem Datenspeicher, wiedererkennen)\nAnonymisierte Datenspeicherung\nNF:\nDas Programm soll nicht diskriminierend sein oder sensibel für Minderheiten funktionieren.\nDSGVO Eingehalten",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "(nicht)-Funktionale Anforderungen"
+    ]
+  },
+  {
+    "objectID": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#siehe-auch",
+    "href": "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Anforderungsanalyse",
+      "(nicht)-Funktionale Anforderungen"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Anti Pattern.html#definition",
+    "href": "13 Abnahme und Wartung/Anti Pattern.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas gegenteil eines Entwurfsmusters, also Dinge, die man nicht tun soll.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Anti Pattern"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Anti Pattern.html#the-blob-aka-god-class",
+    "href": "13 Abnahme und Wartung/Anti Pattern.html#the-blob-aka-god-class",
+    "title": "Softwaretechnik 1",
+    "section": "The Blob (aka God Class)",
+    "text": "The Blob (aka God Class)",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Anti Pattern"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Anti Pattern.html#golden-hammer",
+    "href": "13 Abnahme und Wartung/Anti Pattern.html#golden-hammer",
+    "title": "Softwaretechnik 1",
+    "section": "Golden Hammer",
+    "text": "Golden Hammer\nlöst jedes Problem, wenn man einen Stark genugen hammer hat.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Anti Pattern"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Anti Pattern.html#spaghetti-code",
+    "href": "13 Abnahme und Wartung/Anti Pattern.html#spaghetti-code",
+    "title": "Softwaretechnik 1",
+    "section": "Spaghetti Code",
+    "text": "Spaghetti Code",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Anti Pattern"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Anti Pattern.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Anti Pattern.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Anti Pattern"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Refactoring.html#definition",
+    "href": "13 Abnahme und Wartung/Refactoring.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDie Lösung zu vielen Antipatterns",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Refactoring"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Refactoring.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Refactoring.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Refactoring"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/DevOps.html#definition",
+    "href": "13 Abnahme und Wartung/DevOps.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nSetzt sich auch Developement und Operation. Es bezeichnet den Praktiken um das Deployment von software zu optimieren.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "DevOps"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/DevOps.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/DevOps.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "DevOps"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Wartung und Pflege.html#definition",
+    "href": "13 Abnahme und Wartung/Wartung und Pflege.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas ist die letzte Phase der Softwareentwicklung. Diese Phase ist oft viel länger als man denkt, da viele Systeme viel länger laufen als man annimt.\nNach der Intebriegbnahme…\n\ntreten in der software Versagen auf\nÄndern sich die Umweltfaktoren, Hardware, etc\nÄndern sich oder kommen neue anforderungen hinzu\n\nMan spricht hierbei bei der Alterung von Software.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Wartung und Pflege"
+    ]
+  },
+  {
+    "objectID": "13 Abnahme und Wartung/Wartung und Pflege.html#siehe-auch",
+    "href": "13 Abnahme und Wartung/Wartung und Pflege.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Wartung und Pflege"
+    ]
+  }
+]
