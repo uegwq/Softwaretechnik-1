@@ -5,7 +5,7 @@ date: 2024-07-20
 lang: de
 
 website:
-  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-url: https://github.com/uegwq/Softwaretechnik-1-Notizen/
   repo-actions: [edit, issue]
   title: "Softwaretechnik 1"
   sidebar:
@@ -120,10 +120,6 @@ website:
           contents:
         - "14 Projektmanagement/Was ist ein Projekt.md"
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
-      - "2024-05-03.md"
-      - "README.md"
-      - "Testfile.md"
-      - "Untitled.md"
 
 execute:
   freeze: true
