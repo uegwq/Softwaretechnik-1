@@ -7,7 +7,10 @@ Vorgehens-Prozessmodelle
 ## Liste der Vorgehensmodelle
 ***
 Dies ist eine Liste der Vorgehensmodelle die in der Vorlesung Relevant waren:
-
+- [[Trial and Error]]
+- [[Wasserfallmodell]]
+- [[V-Modell]]
+- [[Prototypmodell]]
 
 
 > [!important] Klausur

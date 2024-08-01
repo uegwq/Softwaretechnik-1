@@ -12,6 +12,7 @@ Wir schauen uns in der Projektplanung eher die Vorgangsknotennetzpläne an. (Met
 Es gibt bei der MPM einen Frühsten und Spätesten Start und Endzeitpunkt. Die Differenzen zwischen Frühsten und Spätesten Zeitpunkten sind dann jeweils die Puffer. Wenn wir eine Bachelorarbeit planen dann macht es auch Sinn Puffer einzuplanen (weil man intuitiv meist zu optimistisch plant)
 Durch sie können wir Ereignisse, Vorgänge und Abhängigkeiten visualisieren.
 Beispiel:
+
 ![[Pasted image 20240718162908.png]]
 ##### Kritischer Pfad:
 Kritische Pfäde sind Vorgände, die keinen Puffer haben

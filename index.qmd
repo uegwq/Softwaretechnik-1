@@ -17,3 +17,20 @@ toc: true
 ## DAS IST SOFTWARETECHNIK
 
 Hallihallo! Willkommen zu meinen Notizen zu der Softwaretechnik 1 Vorlesung von Ina Schäfer am KIT im SS24. Diese Notzien sind lowkey ziemlich unvollständig aber ja vielleicht helfen sie ja jemandem! :)
+
+## Nachbearbeitungsprogess:
+***
+
+- [X] Vorlesung 2
+- [ ] Vorlesung 3
+- [ ] Vorlesung 4
+- [ ] Vorlesung 5
+- [ ] Vorlesung 6
+- [ ] Vorlesung 7
+- [ ] Vorlesung 8
+- [ ] Vorlesung 9
+- [ ] Vorlesung 10
+- [ ] Vorlesung 11
+- [ ] Vorlesung 12
+- [ ] Vorlesung 13
+- [ ] Vorlesung 14

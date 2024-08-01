@@ -9,22 +9,34 @@ website:
   repo-actions: [edit, issue]
   title: "Softwaretechnik 1"
   sidebar:
+  contents:
     style: "docked"
     search: true
-    contents:
-      - section: "1 Einführung und Überblick"
+          - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
       - section: "2 Vorgehensmodell"
         contents:
-        - "2 Vorgehensmodell/Agile Prozesse.md"
+        - "2 Vorgehensmodell/Eigenschaften von Software.md"
+        - section: "Iterative Vorgehensmodelle"
+          contents:
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/eXtreme Programming..md"
         - "2 Vorgehensmodell/Iterative und Evolutionäre Modelle.md"
-        - "2 Vorgehensmodell/Prototypmodell.md"
-        - "2 Vorgehensmodell/Scrum.md"
-        - "2 Vorgehensmodell/Trial and Error.md"
-        - "2 Vorgehensmodell/V-Modell.md"
-        - "2 Vorgehensmodell/Wasserfallmodell.md"
-        - "2 Vorgehensmodell/eXtreme Programming..md"
+        - "2 Vorgehensmodell/Softwarequalitätssicherung.md"
+        - section: "Vorgehens-Prozessmodelle"
+          contents:
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Aktivitäten in der Softwareentwicklung.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Nutzen von Vorgehensmodellen.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Prototypmodell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Trial and Error.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/V-Modell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Vorgehens-Prozessmodelle.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Wasserfallmodell.md"
+        - "2 Vorgehensmodell/Was ist Qualität.md"
       - section: "3 Anforderungsanalyse"
         contents:
         - "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.md"
@@ -84,9 +96,9 @@ website:
         - "11 Qualitätssicherung/Inspektion.md"
         - section: "Testen"
           contents:
+          - "11 Qualitätssicherung/Testen/11 Qualitätssicherung.md"
           - "11 Qualitätssicherung/Testen/Abnahmetests.md"
           - "11 Qualitätssicherung/Testen/Blackboxtesting.md"
-          - "11 Qualitätssicherung/Testen/Einführung.md"
           - "11 Qualitätssicherung/Testen/Integrationstest.md"
           - "11 Qualitätssicherung/Testen/Kontrollflussgraph.md"
           - "11 Qualitätssicherung/Testen/Systemtests.md"
@@ -116,8 +128,6 @@ website:
         - "14 Projektmanagement/Projektstrukturplan.md"
         - "14 Projektmanagement/Reifegradmodelle.md"
         - "14 Projektmanagement/Risikomanagemt.md"
-        - section: "Untitled"
-          contents:
         - "14 Projektmanagement/Was ist ein Projekt.md"
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
 
