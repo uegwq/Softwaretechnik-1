@@ -19,7 +19,7 @@ website:
         contents:
         - "2 Vorgehensmodell/Eigenschaften von Software.md"
         - section: "Iterative Vorgehensmodelle"
-          href: Iterative Vorgehensmodelle.md
+          href: 2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md
           contents:
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
@@ -28,7 +28,7 @@ website:
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/eXtreme Programming..md"
         - "2 Vorgehensmodell/Softwarequalitätssicherung.md"
         - section: "Vorgehens-Prozessmodelle"
-          href: Vorgehens-Prozessmodelle.md
+          href: 2 Vorgehensmodell/Vorgehens-Prozessmodelle/Vorgehens-Prozessmodelle.md
           contents:
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Aktivitäten in der Softwareentwicklung.md"
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Nutzen von Vorgehensmodellen.md"
@@ -133,6 +133,8 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
+
+
 
 
 execute:
