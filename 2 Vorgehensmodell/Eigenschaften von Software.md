@@ -2,7 +2,7 @@
 TARGET DECK
 Softwaretechnik I
 
-TITLE
+Eigenschaften von Software
 --
 ## Äußere und innere Qualität
 ***

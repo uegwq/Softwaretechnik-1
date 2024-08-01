@@ -19,8 +19,8 @@ website:
         contents:
         - "2 Vorgehensmodell/Eigenschaften von Software.md"
         - section: "Iterative Vorgehensmodelle"
+          href: "2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md"
           contents:
-          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.md"
