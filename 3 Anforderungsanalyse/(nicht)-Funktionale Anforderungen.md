@@ -34,7 +34,7 @@ Nicht-Funktionale Anforderungen
 - Der Speicher darf 512MB nicht überschreiten
 - Die Ausgabe muss schön formatiert sein :-=)
 
-Aufgabe in der VL:
+#### Aufgabe in der VL:
 F: 
 Muss ein Gesicht erkennen können.
 (Aus einem Datenspeicher, wiedererkennen)

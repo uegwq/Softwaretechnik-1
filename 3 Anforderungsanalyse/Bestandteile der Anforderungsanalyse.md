@@ -52,7 +52,7 @@ Abgrenzungskriterien:
 - Wichtig auch zu klären, was das Programm **nicht** machen soll.
 - Schutz vor Änderungsanträgen
 Beispiel:
-- Kein Fukus auf intuitive Benutzung, nur für geschulte Benutzer
+- Kein Fokus auf intuitive Benutzung, nur für geschulte Benutzer
 - Schützt nicht vor Fehlern des Benutzers
 - Multilinguale Benutzeroberfläche nicht geplant.
 ## Was sind gute Anforderungen
