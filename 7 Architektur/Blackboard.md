@@ -1,3 +1,7 @@
+---
+aliases: 
+tags: []
+---
 
 TARGET DECK
 Softwaretechnik I

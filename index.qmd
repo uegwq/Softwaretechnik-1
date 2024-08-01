@@ -1,6 +1,6 @@
 <!--TAGS-->
 ---
-pagetitle: "THIS IS SOFTWARETECHNIK1"
+pagetitle: "THIS IS SOFTWARETECHNIK 1"
 # page-layout: custom
 # when using "page-layout :custom" it just doesnt load the sidebar
 # section-divs: false

@@ -21,7 +21,6 @@ website:
         - section: "Iterative Vorgehensmodelle"
           href: 2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md
           contents:
-          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.md"
           - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.md"
@@ -35,7 +34,6 @@ website:
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Prototypmodell.md"
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Trial and Error.md"
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/V-Modell.md"
-          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Vorgehens-Prozessmodelle.md"
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Wasserfallmodell.md"
         - "2 Vorgehensmodell/Was ist Qualität.md"
       - section: "3 Anforderungsanalyse"
@@ -133,9 +131,6 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
-
-
-
 
 execute:
   freeze: true
