@@ -9,9 +9,9 @@ website:
   repo-actions: [edit, issue]
   title: "Softwaretechnik 1"
   sidebar:
-  contents:
     style: "docked"
     search: true
+    contents:
       - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
