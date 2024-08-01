@@ -12,7 +12,7 @@ website:
   contents:
     style: "docked"
     search: true
-          - section: "1 Einführung und Überblick"
+      - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
       - section: "2 Vorgehensmodell"
