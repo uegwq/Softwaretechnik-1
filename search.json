@@ -778,7 +778,7 @@
     "text": "Äußere und innere Qualität",
     "crumbs": [
       "2 Vorgehensmodell",
-      "TITLE"
+      "Eigenschaften von Software"
     ]
   },
   {
@@ -789,7 +789,7 @@
     "text": "Gebrauchsqualität",
     "crumbs": [
       "2 Vorgehensmodell",
-      "TITLE"
+      "Eigenschaften von Software"
     ]
   },
   {
@@ -800,7 +800,7 @@
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Vorgehensmodell",
-      "TITLE"
+      "Eigenschaften von Software"
     ]
   },
   {
@@ -1054,313 +1054,309 @@
     ]
   },
   {
-    "objectID": "TEMPLATES/-.html#definition",
-    "href": "TEMPLATES/-.html#definition",
+    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
+    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
     "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition"
-  },
-  {
-    "objectID": "TEMPLATES/-.html#siehe-auch",
-    "href": "TEMPLATES/-.html#siehe-auch",
-    "title": "Softwaretechnik 1",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
-  },
-  {
-    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
-    "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition\n\nDas its der grund warum wir Kontrollflussgraphen machen,\nWir können dann Testen mit diesem Graphen und schauen, ob unser Test die Folgenden drei Kriterien erfüllt:\n\nAnweisungsüberdeckung (Verlangs die Ausführung aller Grundülöcke)\nZweigüberdeckung: Verlangt das Traversieren aller Zweige\nPfadüberdeckung: Verlangt die Ausführung aller Pfade (also alle möglichen Kombinationen von wie ich durch den Kontrollflussgraphen durchgehen kann)",
+    "section": "Definition Softwaretechnik",
+    "text": "Definition Softwaretechnik\n\nSoftwaretechnik (engl. Softwareenigneering) ist die Lehre von der Softwarekonstruktion; der systemischen Entwicklung und Pflege von Softwaresystemen.",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Überdeckungskriterien"
+      "1 Einführung und Überblick",
+      "Inhalt der Vorlesung"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
+    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
+    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Einführung und Überblick",
+      "Inhalt der Vorlesung"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nMan hat keinen Code, sondern nur eine Beschriebung davon, wie sich das Programm verhält. Wir leiten",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Blackboxtesting"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
+    "title": "Softwaretechnik 1",
+    "section": "Übungsblatt 5 Copy paste (delete me)",
+    "text": "Übungsblatt 5 Copy paste (delete me)\n\n\\[D_{\\text{valid week}}= [1,52]\\]\\[D_{\\text{invalid week}}= \\Bbb Z \\setminus [1,52]\\]\\[W_{\\text{valid day}}= [1,7]\\]\\[W_{\\text{invalid day}}= \\Bbb Z [1,7]\\]\nTestfall 1 (Day wertebereich):\n\\(D_\\text{valid week},D_{\\text{invalid week}}\\)\nday | week | output |\n— | —- | —— |\n1 | -5 | FEHLER |\n1 | 4 | Liste |\n1 | 90 | FEHLER |\nTestfall 2 (Week wertebereich)\n\\(W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n-4 | 13 | FEHLER |\n4 | 13 | Liste |\n10 | 13 | FEHLER |\nTestfall 3 (Grenzwerte)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n——— | ——— | —— |\n-1 | 1 | FEHLER |\n0 | 1 | FEHLER |\n8 | 1 | FEHLER |\nINTLIMIT | 1 | FEHLER |\n-INTLIMIT | 1 | FEHLER |\n1 | -1 | FEHLER |\n1 | 0 | FEHLER |\n1 | 53 | FEHLER |\n1 | INTLIMIT | FEHLER |\n1 | -INTLIMIT | FEHLER |\nTestfall 4 (Normale Interaktion)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n1 | 1 | Liste |\n7 | 1 | Liste |\n1 | 51 | Liste |\n1 | 52 | Liste |\nDiese Testfällt sind sinnvoll, da sie\n\nGenerell schauen, ob einfache Überschritte des Grenzrahmens abgefangen werden\nFehlverhalten an den Grenzwerten getestet wird\nFehlverhalten an den Extremwerten (INTLIMIT) getestet wird\nEine ganz Normale Interaktion überprüft wird\n\nDies sind Fälle, die sehr oft auftreten und hier sehr günstig überprüft werden können.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Blackboxtesting"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Überdeckungskriterien"
+      "Blackboxtesting"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
+    "objectID": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#definition",
+    "href": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nSpezielle systemtests, bei denen der Kunde eingebunden ist. Man geht mit ihm dann die tests (die er auch selber mitgebracht hat) durch.",
+    "text": "Definition\n\nTesten können nie beweisen, dass der Code funktioniert sondern nur zeigen, dass gewisse Fehler ausgeschlossen sind.\nEs gibt dabei einige Test\nWir betrachten vorallem das Kontrollflussorientierte Testen\nMan unterscheidet zwischen folgenden Fehlerklassen:\n\nAnforderungsfehler (Defekt im Pflechtenheft) (Anforderungen sind nicht richtig, unvollständig, nicht umsetzbart)\nEmtwirfsfehler (Defekt in der Spezifikation) (Anforderung verstanden aber falsch umgesetzt)\nImplementierungsfehler (Defekt im Code)\n\nEs gibt dabei folgende Fehlerarten\n\nVersagen oder Ausfall “Es funktioniert nicht”\nDefekte (Mangel, der eventuall ein Versagen versursachen kann)\nIrrtum bzw Herstellerfehler (die Menschlichte Aktion, die einen Fehler verursagt vom Entwickler)",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Abnahmetests"
+      "11 Qualitätssicherung"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Abnahmetests"
+      "11 Qualitätssicherung"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
+    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nFunktionaler Systemtests - Testet Funktionale Anforderungen\nnichtfunktionale Systemtests - Testet nichtfunktionalle Anforderungen.",
+    "text": "Definition\n\nSchlecht:\n\nprintln(…)\nNur mit Debugger\nNur mit Testskripen und wiederum Konsolenausgaben\n\nBesser:\n\nZusicherungen (Assertions)\n\nNoch besser:\n\nAutomatisierte Testgälle (Junit) und Mocks schreiben (Mockito)",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Systemtests"
+      "Testwerkzeuge"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Systemtests"
+      "Testwerkzeuge"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
+    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nWir wandeln unseren Code zuerst in Grundblöcke an nach den Sprüngen. Dann schauen wir, ob ein Sprung innerhalb eines Block endet und teilen ihn dann gegebenenfalls auf.\nWichtige Sachen, die ich schonmal vergessen habe:\n\nAlle Blöcke durchnummerieren\nnstart nicht vergessen!",
+    "text": "Definition\n\nUm einen Kontrollflussdiagramm zu erstellen wandeln wir unseren Code zuvor in eine Zwischensprache um, die aus Grundblöcken besteht. Ein Grundblock ist eine maximal lange Folge von Anweisungen der Zwischensprache ohne Sprungbefehl am Ende.\nDies ist auch nirwendig um Vollständigkeitskriterien zu definieren.",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Kontrollflussgraph"
+      "Zwischensprache"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Kontrollflussgraph"
+      "Zwischensprache"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
+    "objectID": "11 Qualitätssicherung/Inspektion.html#definition",
+    "href": "11 Qualitätssicherung/Inspektion.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nDamit ist gemeint, dass wir die einzelnen Komponenten schrittweise zum Gesamtsystem testen und zum Gesamtsystem zusammenfügen.\nUnmittelbar ist schlecht, denn dafür muss erst das ganze System fertig sein :(\nVorgehensorientiert: Integrationsreihenfolge je nach Systemarchitektur, genauer plan was getan werden soll\nTestzielorientiert: Testfälle schreiben anhand der Testziele, Ziel ist möglich\nBig bang: Wir nehmen alle unsere Module und testen sie alle auf einmal und hoffen, dass es funktioniert\nTop-down: Hier fangen wir in der höchsten hierarischen schicht (meistens user-interface) an und gehen nach unten durch und testen ob alles klapp\nBottop-up: Wir fangen ganz unten in der hierachischen schicht an und gehen nach oben\nHardest-first: Wir testen die kritischte schicht als erstes, die erste die wir testen ist dann die kritischte\nOutside-in: top-down und bottom-up gleichzeitig, wir gehen aber von der obersten schicke und von der unteren schicht durch. (sehr gut scheinbar!)\nInside-out: so invers\nNach verfügbarkeit: Wir testen halt die Sachen, die wir schon geschrieben haben\nFunktionsorientiert: Wir testen anhand den funktionalen testfällen und orientieren und an den funktionalen Anforderungen",
+    "text": "Definition\n\nDie Inspektion ist eine formale Qualitätssicherungstechnik, bei der Anforderungen, Entwurf oder Code eingehend durch eine vom Autor verschiedene Person oder eine Gruppe von Personen begutachtet werden. Zweck ist das Finden von Fehlern, Verstößen gegen Entwicklungsstandards und anderen Problemen.",
     "crumbs": [
       "11 Qualitätssicherung",
-      "Testen",
-      "Integrationstest"
+      "Inspektion"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Inspektion.html#rollen",
+    "href": "11 Qualitätssicherung/Inspektion.html#rollen",
+    "title": "Softwaretechnik 1",
+    "section": "Rollen",
+    "text": "Rollen\n\n\nInspektionsleiter: leitet alle Phasen der Inspektion\nModeration: leitet die Gruppensitzung (meist der Inspektionsleiter)\nInspektoren: prüfen das Dokument\nSchriftführer: protokolliert Defekte in der Gruppensitzung\nEditor: klassifiziert und behebt die Defekte(meist der Autor)\nAutor: hat das Dokument verfasst.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#ablauf",
+    "href": "11 Qualitätssicherung/Inspektion.html#ablauf",
+    "title": "Softwaretechnik 1",
+    "section": "Ablauf",
+    "text": "Ablauf\n\n\nVorbereitung\nTeilnehmer, Rollen, Dokumente, Formulare, Lesetechniken und Zeitlichen Ablauf (mit kick-off treffen) Planen\nIndividuelle Fehlersuche\nJeder Inspektor prüft für sich das Dokument (1 Seite pro Stunde)\nBenutzt vereinbarte Lesetechnik\nSchreibt alle Problempunkte und die genaue Stelle im Dokument auf\nGruppensitzung (Dauer: 2h)\nIndividuell gefunende Problempunkte sammeln\nAlle Problempunkte besprechen, fragen klären, weiter Problempunkte sammeln, die gerade spontan gefunden werden, verbesserungsvorschläge Sammeln, ALTERNATIVE MEINUNGEN NICHT DISKUTIEREN sondern protokollieren\nNachbereitung\nListe mit allen Problempunkten wird an den Editor des Dokumentes weitergeleitet\nEditor identifiziert tatsächliche Defekte und klasifiziert sie\nEditor leitet dann Änderung des Dokumentes ein\nAlle Problempunkte werden bearbeitet\nDeren Bearbeitung wird Überprüft",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Inspektion"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
-      "Testen",
-      "Integrationstest"
+      "Inspektion"
     ]
   },
   {
-    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
-    "href": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
-    "title": "Softwaretechnik 1",
-    "section": "Steckbrief",
-    "text": "Steckbrief",
-    "crumbs": [
-      "7 Architektur",
-      "Pipeline"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
-    "href": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
-    "title": "Softwaretechnik 1",
-    "section": "Beispiel",
-    "text": "Beispiel",
-    "crumbs": [
-      "7 Architektur",
-      "Pipeline"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#definition",
-    "href": "7 Architektur/Pipeline (dt. Fließband).html#definition",
+    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
+    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
     "text": "Definition",
     "crumbs": [
       "7 Architektur",
-      "Pipeline"
+      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
     ]
   },
   {
-    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
-    "href": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
+    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
+    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "7 Architektur",
-      "Pipeline"
+      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
     ]
   },
   {
-    "objectID": "7 Architektur/Verteilungsdiagram.html#steckbrief",
-    "href": "7 Architektur/Verteilungsdiagram.html#steckbrief",
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
+    "href": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
     "title": "Softwaretechnik 1",
     "section": "Steckbrief",
     "text": "Steckbrief",
     "crumbs": [
       "7 Architektur",
-      "Verteilungsdiagram"
+      "Klient-Dienstgeber"
     ]
   },
   {
-    "objectID": "7 Architektur/Verteilungsdiagram.html#beispiel",
-    "href": "7 Architektur/Verteilungsdiagram.html#beispiel",
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#beispiel",
+    "href": "7 Architektur/Klient-Dienstgeber.html#beispiel",
     "title": "Softwaretechnik 1",
     "section": "Beispiel",
     "text": "Beispiel",
     "crumbs": [
       "7 Architektur",
-      "Verteilungsdiagram"
+      "Klient-Dienstgeber"
     ]
   },
   {
-    "objectID": "7 Architektur/Verteilungsdiagram.html#definition",
-    "href": "7 Architektur/Verteilungsdiagram.html#definition",
+    "objectID": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
+    "href": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
     "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition\n\n\nNodes\n\n\n\nKommunikationskanäle",
+    "section": "Sie auch",
+    "text": "Sie auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "7 Architektur",
-      "Verteilungsdiagram"
+      "Klient-Dienstgeber"
     ]
   },
   {
-    "objectID": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
-    "href": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
+    "objectID": "7 Architektur/Blackboard.html#steckbrief",
+    "href": "7 Architektur/Blackboard.html#steckbrief",
     "title": "Softwaretechnik 1",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "section": "Steckbrief",
+    "text": "Steckbrief\n\n????????",
     "crumbs": [
       "7 Architektur",
-      "Verteilungsdiagram"
+      "Blackboard"
     ]
   },
   {
-    "objectID": "7 Architektur/Einleitung.html#definition",
-    "href": "7 Architektur/Einleitung.html#definition",
+    "objectID": "7 Architektur/Blackboard.html#beispiel",
+    "href": "7 Architektur/Blackboard.html#beispiel",
     "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition\n\nDiese Architekturentwürfe sind gut, weil man von Anfang an Zielgerichtet und effizienter sind und alle Stakeholder das große und ganze verstehen können",
+    "section": "Beispiel",
+    "text": "Beispiel",
     "crumbs": [
       "7 Architektur",
-      "Einleitung"
+      "Blackboard"
     ]
   },
   {
-    "objectID": "7 Architektur/Einleitung.html#siehe-auch",
-    "href": "7 Architektur/Einleitung.html#siehe-auch",
-    "title": "Softwaretechnik 1",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Architektur",
-      "Einleitung"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Modell-view-controller.html#definition",
-    "href": "7 Architektur/Modell-view-controller.html#definition",
-    "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition\n\nDer Kern ist, dass wir eine Datenspeicherung im Model haben, sowie einen View und Controller.\nDefinition vom Tut:\nBei einer solchen Architektur trennt man die Datenspeicherung (Modell) von der Darstellung (Präsentation) ab. Als Schnittstelle dient beiden Teilen die Steuerung.\nMVC ist ein spezifischeres Muster als das Schichtenmodell. Die Schichten sind nicht so fest umgesetzt und nicht so fest getrennt. Es sind nicht sher die Aufgaben getrennt (wie bei der Schichtenarchitektur), sondern eher die Anzeige, Verarbeitung, Speicherung.",
-    "crumbs": [
-      "7 Architektur",
-      "Modell-view-controller"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Modell-view-controller.html#siehe-auch",
-    "href": "7 Architektur/Modell-view-controller.html#siehe-auch",
+    "objectID": "7 Architektur/Blackboard.html#siehe-auch",
+    "href": "7 Architektur/Blackboard.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "7 Architektur",
-      "Modell-view-controller"
+      "Blackboard"
     ]
   },
   {
-    "objectID": "7 Architektur/Schichtenarchitektur.html#steckbrief",
-    "href": "7 Architektur/Schichtenarchitektur.html#steckbrief",
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
+    "href": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
     "title": "Softwaretechnik 1",
     "section": "Steckbrief",
     "text": "Steckbrief",
     "crumbs": [
       "7 Architektur",
-      "Schichtenarchitektur"
+      "Peer-to-Peer Network"
     ]
   },
   {
-    "objectID": "7 Architektur/Schichtenarchitektur.html#beispiel",
-    "href": "7 Architektur/Schichtenarchitektur.html#beispiel",
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#beispiel",
+    "href": "7 Architektur/Peer-to-Peer Network.html#beispiel",
     "title": "Softwaretechnik 1",
     "section": "Beispiel",
-    "text": "Beispiel",
+    "text": "Beispiel\n\nSkype vor Microsoft",
     "crumbs": [
       "7 Architektur",
-      "Schichtenarchitektur"
+      "Peer-to-Peer Network"
     ]
   },
   {
-    "objectID": "7 Architektur/Schichtenarchitektur.html#definition",
-    "href": "7 Architektur/Schichtenarchitektur.html#definition",
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#definition",
+    "href": "7 Architektur/Peer-to-Peer Network.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition",
+    "text": "Definition\n\nSind super für dezentrales file-sharing von legalem ;) kontent\nIdee: jeder Peer kann gleichzeitig client/server sein.",
     "crumbs": [
       "7 Architektur",
-      "Schichtenarchitektur"
+      "Peer-to-Peer Network"
     ]
   },
   {
-    "objectID": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
-    "href": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
+    "objectID": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
+    "href": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "7 Architektur",
-      "Schichtenarchitektur"
+      "Peer-to-Peer Network"
     ]
   },
   {
@@ -1430,310 +1426,314 @@
     ]
   },
   {
-    "objectID": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
-    "href": "7 Architektur/Peer-to-Peer Network.html#steckbrief",
+    "objectID": "7 Architektur/Schichtenarchitektur.html#steckbrief",
+    "href": "7 Architektur/Schichtenarchitektur.html#steckbrief",
     "title": "Softwaretechnik 1",
     "section": "Steckbrief",
     "text": "Steckbrief",
     "crumbs": [
       "7 Architektur",
-      "Peer-to-Peer Network"
+      "Schichtenarchitektur"
     ]
   },
   {
-    "objectID": "7 Architektur/Peer-to-Peer Network.html#beispiel",
-    "href": "7 Architektur/Peer-to-Peer Network.html#beispiel",
-    "title": "Softwaretechnik 1",
-    "section": "Beispiel",
-    "text": "Beispiel\n\nSkype vor Microsoft",
-    "crumbs": [
-      "7 Architektur",
-      "Peer-to-Peer Network"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Peer-to-Peer Network.html#definition",
-    "href": "7 Architektur/Peer-to-Peer Network.html#definition",
-    "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition\n\nSind super für dezentrales file-sharing von legalem ;) kontent\nIdee: jeder Peer kann gleichzeitig client/server sein.",
-    "crumbs": [
-      "7 Architektur",
-      "Peer-to-Peer Network"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
-    "href": "7 Architektur/Peer-to-Peer Network.html#siehe-auch",
-    "title": "Softwaretechnik 1",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Architektur",
-      "Peer-to-Peer Network"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Blackboard.html#steckbrief",
-    "href": "7 Architektur/Blackboard.html#steckbrief",
-    "title": "Softwaretechnik 1",
-    "section": "Steckbrief",
-    "text": "Steckbrief\n\n????????",
-    "crumbs": [
-      "7 Architektur",
-      "Blackboard"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Blackboard.html#beispiel",
-    "href": "7 Architektur/Blackboard.html#beispiel",
+    "objectID": "7 Architektur/Schichtenarchitektur.html#beispiel",
+    "href": "7 Architektur/Schichtenarchitektur.html#beispiel",
     "title": "Softwaretechnik 1",
     "section": "Beispiel",
     "text": "Beispiel",
     "crumbs": [
       "7 Architektur",
-      "Blackboard"
+      "Schichtenarchitektur"
     ]
   },
   {
-    "objectID": "7 Architektur/Blackboard.html#siehe-auch",
-    "href": "7 Architektur/Blackboard.html#siehe-auch",
-    "title": "Softwaretechnik 1",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Architektur",
-      "Blackboard"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
-    "href": "7 Architektur/Klient-Dienstgeber.html#steckbrief",
-    "title": "Softwaretechnik 1",
-    "section": "Steckbrief",
-    "text": "Steckbrief",
-    "crumbs": [
-      "7 Architektur",
-      "Klient-Dienstgeber"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Klient-Dienstgeber.html#beispiel",
-    "href": "7 Architektur/Klient-Dienstgeber.html#beispiel",
-    "title": "Softwaretechnik 1",
-    "section": "Beispiel",
-    "text": "Beispiel",
-    "crumbs": [
-      "7 Architektur",
-      "Klient-Dienstgeber"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
-    "href": "7 Architektur/Klient-Dienstgeber.html#sie-auch",
-    "title": "Softwaretechnik 1",
-    "section": "Sie auch",
-    "text": "Sie auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "7 Architektur",
-      "Klient-Dienstgeber"
-    ]
-  },
-  {
-    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
-    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#definition",
+    "objectID": "7 Architektur/Schichtenarchitektur.html#definition",
+    "href": "7 Architektur/Schichtenarchitektur.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
     "text": "Definition",
     "crumbs": [
       "7 Architektur",
-      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
+      "Schichtenarchitektur"
     ]
   },
   {
-    "objectID": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
-    "href": "7 Architektur/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.html#siehe-auch",
+    "objectID": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
+    "href": "7 Architektur/Schichtenarchitektur.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "7 Architektur",
-      "Service Oriented Architecture (SOA) Dienstorientierte Architekturen"
+      "Schichtenarchitektur"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Inspektion.html#definition",
-    "href": "11 Qualitätssicherung/Inspektion.html#definition",
+    "objectID": "7 Architektur/Modell-view-controller.html#definition",
+    "href": "7 Architektur/Modell-view-controller.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nDie Inspektion ist eine formale Qualitätssicherungstechnik, bei der Anforderungen, Entwurf oder Code eingehend durch eine vom Autor verschiedene Person oder eine Gruppe von Personen begutachtet werden. Zweck ist das Finden von Fehlern, Verstößen gegen Entwicklungsstandards und anderen Problemen.",
+    "text": "Definition\n\nDer Kern ist, dass wir eine Datenspeicherung im Model haben, sowie einen View und Controller.\nDefinition vom Tut:\nBei einer solchen Architektur trennt man die Datenspeicherung (Modell) von der Darstellung (Präsentation) ab. Als Schnittstelle dient beiden Teilen die Steuerung.\nMVC ist ein spezifischeres Muster als das Schichtenmodell. Die Schichten sind nicht so fest umgesetzt und nicht so fest getrennt. Es sind nicht sher die Aufgaben getrennt (wie bei der Schichtenarchitektur), sondern eher die Anzeige, Verarbeitung, Speicherung.",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Inspektion"
+      "7 Architektur",
+      "Modell-view-controller"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Inspektion.html#rollen",
-    "href": "11 Qualitätssicherung/Inspektion.html#rollen",
-    "title": "Softwaretechnik 1",
-    "section": "Rollen",
-    "text": "Rollen\n\n\nInspektionsleiter: leitet alle Phasen der Inspektion\nModeration: leitet die Gruppensitzung (meist der Inspektionsleiter)\nInspektoren: prüfen das Dokument\nSchriftführer: protokolliert Defekte in der Gruppensitzung\nEditor: klassifiziert und behebt die Defekte(meist der Autor)\nAutor: hat das Dokument verfasst.",
-    "crumbs": [
-      "11 Qualitätssicherung",
-      "Inspektion"
-    ]
-  },
-  {
-    "objectID": "11 Qualitätssicherung/Inspektion.html#ablauf",
-    "href": "11 Qualitätssicherung/Inspektion.html#ablauf",
-    "title": "Softwaretechnik 1",
-    "section": "Ablauf",
-    "text": "Ablauf\n\n\nVorbereitung\nTeilnehmer, Rollen, Dokumente, Formulare, Lesetechniken und Zeitlichen Ablauf (mit kick-off treffen) Planen\nIndividuelle Fehlersuche\nJeder Inspektor prüft für sich das Dokument (1 Seite pro Stunde)\nBenutzt vereinbarte Lesetechnik\nSchreibt alle Problempunkte und die genaue Stelle im Dokument auf\nGruppensitzung (Dauer: 2h)\nIndividuell gefunende Problempunkte sammeln\nAlle Problempunkte besprechen, fragen klären, weiter Problempunkte sammeln, die gerade spontan gefunden werden, verbesserungsvorschläge Sammeln, ALTERNATIVE MEINUNGEN NICHT DISKUTIEREN sondern protokollieren\nNachbereitung\nListe mit allen Problempunkten wird an den Editor des Dokumentes weitergeleitet\nEditor identifiziert tatsächliche Defekte und klasifiziert sie\nEditor leitet dann Änderung des Dokumentes ein\nAlle Problempunkte werden bearbeitet\nDeren Bearbeitung wird Überprüft",
-    "crumbs": [
-      "11 Qualitätssicherung",
-      "Inspektion"
-    ]
-  },
-  {
-    "objectID": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Inspektion.html#siehe-auch",
+    "objectID": "7 Architektur/Modell-view-controller.html#siehe-auch",
+    "href": "7 Architektur/Modell-view-controller.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Inspektion"
+      "7 Architektur",
+      "Modell-view-controller"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#definition",
+    "objectID": "7 Architektur/Einleitung.html#definition",
+    "href": "7 Architektur/Einleitung.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nUm einen Kontrollflussdiagramm zu erstellen wandeln wir unseren Code zuvor in eine Zwischensprache um, die aus Grundblöcken besteht. Ein Grundblock ist eine maximal lange Folge von Anweisungen der Zwischensprache ohne Sprungbefehl am Ende.\nDies ist auch nirwendig um Vollständigkeitskriterien zu definieren.",
+    "text": "Definition\n\nDiese Architekturentwürfe sind gut, weil man von Anfang an Zielgerichtet und effizienter sind und alle Stakeholder das große und ganze verstehen können",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Zwischensprache"
+      "7 Architektur",
+      "Einleitung"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Zwischensprache.html#siehe-auch",
+    "objectID": "7 Architektur/Einleitung.html#siehe-auch",
+    "href": "7 Architektur/Einleitung.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Zwischensprache"
+      "7 Architektur",
+      "Einleitung"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#definition",
+    "objectID": "7 Architektur/Verteilungsdiagram.html#steckbrief",
+    "href": "7 Architektur/Verteilungsdiagram.html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#beispiel",
+    "href": "7 Architektur/Verteilungsdiagram.html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Verteilungsdiagram"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Verteilungsdiagram.html#definition",
+    "href": "7 Architektur/Verteilungsdiagram.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nSchlecht:\n\nprintln(…)\nNur mit Debugger\nNur mit Testskripen und wiederum Konsolenausgaben\n\nBesser:\n\nZusicherungen (Assertions)\n\nNoch besser:\n\nAutomatisierte Testgälle (Junit) und Mocks schreiben (Mockito)",
+    "text": "Definition\n\n\nNodes\n\n\n\nKommunikationskanäle",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Testwerkzeuge"
+      "7 Architektur",
+      "Verteilungsdiagram"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Testwerkzeuge.html#siehe-auch",
+    "objectID": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
+    "href": "7 Architektur/Verteilungsdiagram.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Testwerkzeuge"
+      "7 Architektur",
+      "Verteilungsdiagram"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#definition",
-    "href": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#definition",
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#steckbrief",
+    "title": "Softwaretechnik 1",
+    "section": "Steckbrief",
+    "text": "Steckbrief",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#beispiel",
+    "title": "Softwaretechnik 1",
+    "section": "Beispiel",
+    "text": "Beispiel",
+    "crumbs": [
+      "7 Architektur",
+      "Pipeline"
+    ]
+  },
+  {
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#definition",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nTesten können nie beweisen, dass der Code funktioniert sondern nur zeigen, dass gewisse Fehler ausgeschlossen sind.\nEs gibt dabei einige Test\nWir betrachten vorallem das Kontrollflussorientierte Testen\nMan unterscheidet zwischen folgenden Fehlerklassen:\n\nAnforderungsfehler (Defekt im Pflechtenheft) (Anforderungen sind nicht richtig, unvollständig, nicht umsetzbart)\nEmtwirfsfehler (Defekt in der Spezifikation) (Anforderung verstanden aber falsch umgesetzt)\nImplementierungsfehler (Defekt im Code)\n\nEs gibt dabei folgende Fehlerarten\n\nVersagen oder Ausfall “Es funktioniert nicht”\nDefekte (Mangel, der eventuall ein Versagen versursachen kann)\nIrrtum bzw Herstellerfehler (die Menschlichte Aktion, die einen Fehler verursagt vom Entwickler)",
+    "text": "Definition",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "11 Qualitätssicherung"
+      "7 Architektur",
+      "Pipeline"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/11 Qualitätssicherung.html#siehe-auch",
+    "objectID": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
+    "href": "7 Architektur/Pipeline (dt. Fließband).html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "11 Qualitätssicherung"
+      "7 Architektur",
+      "Pipeline"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
-    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#definition",
+    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nMan hat keinen Code, sondern nur eine Beschriebung davon, wie sich das Programm verhält. Wir leiten",
+    "text": "Definition\n\nDamit ist gemeint, dass wir die einzelnen Komponenten schrittweise zum Gesamtsystem testen und zum Gesamtsystem zusammenfügen.\nUnmittelbar ist schlecht, denn dafür muss erst das ganze System fertig sein :(\nVorgehensorientiert: Integrationsreihenfolge je nach Systemarchitektur, genauer plan was getan werden soll\nTestzielorientiert: Testfälle schreiben anhand der Testziele, Ziel ist möglich\nBig bang: Wir nehmen alle unsere Module und testen sie alle auf einmal und hoffen, dass es funktioniert\nTop-down: Hier fangen wir in der höchsten hierarischen schicht (meistens user-interface) an und gehen nach unten durch und testen ob alles klapp\nBottop-up: Wir fangen ganz unten in der hierachischen schicht an und gehen nach oben\nHardest-first: Wir testen die kritischte schicht als erstes, die erste die wir testen ist dann die kritischte\nOutside-in: top-down und bottom-up gleichzeitig, wir gehen aber von der obersten schicke und von der unteren schicht durch. (sehr gut scheinbar!)\nInside-out: so invers\nNach verfügbarkeit: Wir testen halt die Sachen, die wir schon geschrieben haben\nFunktionsorientiert: Wir testen anhand den funktionalen testfällen und orientieren und an den funktionalen Anforderungen",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Blackboxtesting"
+      "Integrationstest"
     ]
   },
   {
-    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
-    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#übungsblatt-5-copy-paste-delete-me",
-    "title": "Softwaretechnik 1",
-    "section": "Übungsblatt 5 Copy paste (delete me)",
-    "text": "Übungsblatt 5 Copy paste (delete me)\n\n\\[D_{\\text{valid week}}= [1,52]\\]\\[D_{\\text{invalid week}}= \\Bbb Z \\setminus [1,52]\\]\\[W_{\\text{valid day}}= [1,7]\\]\\[W_{\\text{invalid day}}= \\Bbb Z [1,7]\\]\nTestfall 1 (Day wertebereich):\n\\(D_\\text{valid week},D_{\\text{invalid week}}\\)\nday | week | output |\n— | —- | —— |\n1 | -5 | FEHLER |\n1 | 4 | Liste |\n1 | 90 | FEHLER |\nTestfall 2 (Week wertebereich)\n\\(W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n-4 | 13 | FEHLER |\n4 | 13 | Liste |\n10 | 13 | FEHLER |\nTestfall 3 (Grenzwerte)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n——— | ——— | —— |\n-1 | 1 | FEHLER |\n0 | 1 | FEHLER |\n8 | 1 | FEHLER |\nINTLIMIT | 1 | FEHLER |\n-INTLIMIT | 1 | FEHLER |\n1 | -1 | FEHLER |\n1 | 0 | FEHLER |\n1 | 53 | FEHLER |\n1 | INTLIMIT | FEHLER |\n1 | -INTLIMIT | FEHLER |\nTestfall 4 (Normale Interaktion)\n\\(D_\\text{valid week},D_{\\text{invalid week}}, W_{\\text{valid day}},W_{\\text{invalid day}}\\)\nday | week | output |\n— | —- | —— |\n1 | 1 | Liste |\n7 | 1 | Liste |\n1 | 51 | Liste |\n1 | 52 | Liste |\nDiese Testfällt sind sinnvoll, da sie\n\nGenerell schauen, ob einfache Überschritte des Grenzrahmens abgefangen werden\nFehlverhalten an den Grenzwerten getestet wird\nFehlverhalten an den Extremwerten (INTLIMIT) getestet wird\nEine ganz Normale Interaktion überprüft wird\n\nDies sind Fälle, die sehr oft auftreten und hier sehr günstig überprüft werden können.",
-    "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen",
-      "Blackboxtesting"
-    ]
-  },
-  {
-    "objectID": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
-    "href": "11 Qualitätssicherung/Testen/Blackboxtesting.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Integrationstest.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen",
-      "Blackboxtesting"
+      "Integrationstest"
     ]
   },
   {
-    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
-    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#definition-softwaretechnik",
+    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#definition",
     "title": "Softwaretechnik 1",
-    "section": "Definition Softwaretechnik",
-    "text": "Definition Softwaretechnik\n\nSoftwaretechnik (engl. Softwareenigneering) ist die Lehre von der Softwarekonstruktion; der systemischen Entwicklung und Pflege von Softwaresystemen.",
+    "section": "Definition",
+    "text": "Definition\n\nWir wandeln unseren Code zuerst in Grundblöcke an nach den Sprüngen. Dann schauen wir, ob ein Sprung innerhalb eines Block endet und teilen ihn dann gegebenenfalls auf.\nWichtige Sachen, die ich schonmal vergessen habe:\n\nAlle Blöcke durchnummerieren\nnstart nicht vergessen!",
     "crumbs": [
-      "1 Einführung und Überblick",
-      "Inhalt der Vorlesung"
+      "11 Qualitätssicherung",
+      "Testen",
+      "Kontrollflussgraph"
     ]
   },
   {
-    "objectID": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
-    "href": "1 Einführung und Überblick/Inhalt der Vorlesung.html#siehe-auch",
+    "objectID": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Kontrollflussgraph.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
-      "1 Einführung und Überblick",
-      "Inhalt der Vorlesung"
+      "11 Qualitätssicherung",
+      "Testen",
+      "Kontrollflussgraph"
     ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Systemtests.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nFunktionaler Systemtests - Testet Funktionale Anforderungen\nnichtfunktionale Systemtests - Testet nichtfunktionalle Anforderungen.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Systemtests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Systemtests.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Systemtests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nSpezielle systemtests, bei denen der Kunde eingebunden ist. Man geht mit ihm dann die tests (die er auch selber mitgebracht hat) durch.",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Abnahmetests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Abnahmetests.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Abnahmetests"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
+    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition\n\nDas its der grund warum wir Kontrollflussgraphen machen,\nWir können dann Testen mit diesem Graphen und schauen, ob unser Test die Folgenden drei Kriterien erfüllt:\n\nAnweisungsüberdeckung (Verlangs die Ausführung aller Grundülöcke)\nZweigüberdeckung: Verlangt das Traversieren aller Zweige\nPfadüberdeckung: Verlangt die Ausführung aller Pfade (also alle möglichen Kombinationen von wie ich durch den Kontrollflussgraphen durchgehen kann)",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Überdeckungskriterien"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
+    "href": "11 Qualitätssicherung/Testen/Überdeckungskriterien.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen",
+      "Überdeckungskriterien"
+    ]
+  },
+  {
+    "objectID": "TEMPLATES/-.html#definition",
+    "href": "TEMPLATES/-.html#definition",
+    "title": "Softwaretechnik 1",
+    "section": "Definition",
+    "text": "Definition"
+  },
+  {
+    "objectID": "TEMPLATES/-.html#siehe-auch",
+    "href": "TEMPLATES/-.html#siehe-auch",
+    "title": "Softwaretechnik 1",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
   },
   {
     "objectID": "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.html#definition",
@@ -1767,7 +1767,6 @@
     "text": "Einleitung\n\nMan hat sich eingestanden, dass es unmöglich ist einen Prozess zu definieren und ihn dann 1:1 klar einzuhalten wie geplant. Um sich zu Veränderungen anzupassen kam die Motivation iterative Vorgehensmodelle zu erfinden.\nWir gehen schritt für schritt an das entgültige System und tasten uns schritt für schritt an das fertige Produkt an.",
     "crumbs": [
       "2 Vorgehensmodell",
-      "Iterative Vorgehensmodelle",
       "Iterative Vorgehensmodelle"
     ]
   },
@@ -1779,7 +1778,6 @@
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "2 Vorgehensmodell",
-      "Iterative Vorgehensmodelle",
       "Iterative Vorgehensmodelle"
     ]
   },
