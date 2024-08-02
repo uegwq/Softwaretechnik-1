@@ -110,7 +110,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Adapter.html">Strukturmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Composite.html">TITLE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Adapter.html">Strukturmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Composite.html">Composite</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -499,11 +499,8 @@ cookieconsent.run({
       </ul>
   </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../9 Entwurfsmuster/Klassifizierung der Muster.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Klassifizierung der Muster</span></a>
-  </div>
-</li>
+ <span class="menu-text">9 Entwurfsmuster/Klassifizierung der Muster.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../9 Entwurfsmuster/Modell-view-controller.html" class="sidebar-item-text sidebar-link">
@@ -528,7 +525,7 @@ cookieconsent.run({
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../9 Entwurfsmuster/Strukturmuster/Composite.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">TITLE</span></a>
+ <span class="menu-text">Composite</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -544,11 +541,8 @@ cookieconsent.run({
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../9 Entwurfsmuster/Strukturmuster/Observer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">TITLE</span></a>
-  </div>
-</li>
+ <span class="menu-text">9 Entwurfsmuster/Strukturmuster/Observer.md</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../9 Entwurfsmuster/Strukturmuster/Proxy.html" class="sidebar-item-text sidebar-link">
@@ -827,7 +821,7 @@ cookieconsent.run({
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Adapter.html">Strukturmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Composite.html">TITLE</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Adapter.html">Strukturmuster</a></li><li class="breadcrumb-item"><a href="../../9 Entwurfsmuster/Strukturmuster/Composite.html">Composite</a></li></ol></nav>
 <div class="quarto-title">
 </div>
 
@@ -851,14 +845,24 @@ cookieconsent.run({
 </header>
 
 
-<section id="title" class="level2">
-<h2 class="anchored" data-anchor-id="title">TITLE</h2>
+<section id="composite" class="level2">
+<h2 class="anchored" data-anchor-id="composite">Composite</h2>
+</section>
+<section id="übersicht" class="level2">
+<h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
+<hr>
+<p><img src="../../Pasted image 20240802170612.png" class="img-fluid">(https://medium.com/<span class="citation" data-cites="satyendra.jaiswal/demystifying-the-composite-pattern-a-comprehensive-guide-350bcf0fe001">(<a href="#ref-satyendra.jaiswal/demystifying-the-composite-pattern-a-comprehensive-guide-350bcf0fe001" role="doc-biblioref"><strong>satyendra.jaiswal/demystifying-the-composite-pattern-a-comprehensive-guide-350bcf0fe001?</strong></a>)</span>)</p>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
+<p>Composites werden verwendet, wenn man ein Komplexes Konstrukt hat, welches man in einer Baumstruktur mit einfachen Gruppen darstellen kann, die sich dann wiederum zu größeren Gruppen zusammenfügen lassen.</p>
 <p><img src="../../Pasted image 20240620164716.png" class="img-fluid"></p>
 <p><img src="../../Pasted image 20240620164729.png" class="img-fluid"></p>
+</section>
+<section id="beispiele" class="level2">
+<h2 class="anchored" data-anchor-id="beispiele">Beispiele</h2>
+<p><img src="../../Pasted image 20240802170324.png" class="img-fluid"></p>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
