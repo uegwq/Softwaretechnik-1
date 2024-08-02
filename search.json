@@ -1377,6 +1377,16 @@
     ]
   },
   {
+    "objectID": "9 Entwurfsmuster/9 Entwurfsmuster.html#klassifizierung-der-muster",
+    "href": "9 Entwurfsmuster/9 Entwurfsmuster.html#klassifizierung-der-muster",
+    "title": "Softwaretechnik 1",
+    "section": "Klassifizierung der Muster",
+    "text": "Klassifizierung der Muster\n\n\nStrukturmuster - Zusammensetzung von Klassen und Objekten\nErzeugungsmuster - Erzeugung von Objekten\nVerhaltensmuster - Steuern Kontroll🏞️e und Interaktionen zwischen Klassen und Objekten",
+    "crumbs": [
+      "9 Entwurfsmuster"
+    ]
+  },
+  {
     "objectID": "9 Entwurfsmuster/9 Entwurfsmuster.html#siehe-auch",
     "href": "9 Entwurfsmuster/9 Entwurfsmuster.html#siehe-auch",
     "title": "Softwaretechnik 1",
