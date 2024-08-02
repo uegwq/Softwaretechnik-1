@@ -18,6 +18,15 @@ toc: true
 
 Hallihallo! Willkommen zu meinen Notizen zu der Softwaretechnik 1 Vorlesung von Ina Schäfer am KIT im SS24. Diese Notzien sind lowkey ziemlich unvollständig aber ja vielleicht helfen sie ja jemandem! :)
 
+
+## References zu "Wo sind wir gerade?"
+- Planung
+- Definition
+- Entwurf
+- Implementierung
+- Testem
+- Abmahme
+
 ## Nachbearbeitungsprogess:
 ***
 
@@ -30,8 +39,8 @@ Hallihallo! Willkommen zu meinen Notizen zu der Softwaretechnik 1 Vorlesung von 
 - [X] Vorlesung 8
 - [ ] Vorlesung 9
 - [X] Vorlesung 10
-- [ ] Vorlesung 11
-- [ ] Vorlesung 12
+- [X] Vorlesung 11
+- [X] Vorlesung 12
 - [ ] Vorlesung 13
 - [ ] Vorlesung 14
 

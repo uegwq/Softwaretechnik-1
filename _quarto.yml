@@ -108,15 +108,18 @@ website:
         href: 10 Programmierrichtlinien/10 Programmierrichtlinien.md
         contents:
       - section: "11 Qualitätssicherung"
+        href: 11 Qualitätssicherung/11 Qualitätssicherung.md
         contents:
-        - "11 Qualitätssicherung/Inspektion.md"
         - section: "Testen"
+          href: 11 Qualitätssicherung/Testen/Testen.md
           contents:
-          - "11 Qualitätssicherung/Testen/11 Qualitätssicherung.md"
           - "11 Qualitätssicherung/Testen/Abnahmetests.md"
           - "11 Qualitätssicherung/Testen/Blackboxtesting.md"
+          - "11 Qualitätssicherung/Testen/Inspektion.md"
           - "11 Qualitätssicherung/Testen/Integrationstest.md"
           - "11 Qualitätssicherung/Testen/Kontrollflussgraph.md"
+          - "11 Qualitätssicherung/Testen/Leistungstests.md"
+          - "11 Qualitätssicherung/Testen/Prüfprogramme.md"
           - "11 Qualitätssicherung/Testen/Systemtests.md"
           - "11 Qualitätssicherung/Testen/Testwerkzeuge.md"
           - "11 Qualitätssicherung/Testen/Zwischensprache.md"
@@ -148,7 +151,6 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
-
 
 
 

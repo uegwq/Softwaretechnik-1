@@ -13,4 +13,5 @@ Wichtige Sachen, die ich schonmal vergessen habe:
 2. nstart nicht vergessen!
 ## Siehe auch
 ***
-* Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt
+* [[Überdeckungskriterien]]
+* [[Zwischensprache]]
