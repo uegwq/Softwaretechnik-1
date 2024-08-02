@@ -2870,7 +2870,18 @@
     "href": "11 Qualitätssicherung/Testen/Testen.html#übersichtsmatrix",
     "title": "Softwaretechnik 1",
     "section": "Übersichtsmatrix",
-    "text": "Übersichtsmatrix\n\nPhase | | | | | | |\n+==================+=========================+=======================+======================+====================+=======================+===================+ | Abnahmetest | [[Abnahmetests]] | +——————+—————————————————————————————————————————————–+ | Systemtest | [[Systemtests]] | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Integrationstest | | | [[Integrationstest]] | | | | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Komponententest | [[Kontrollflussgraph]] | - | [[Blackboxtesting]] | [[Leistungstests]] | [[Inspektion]] | [[Prüfprogramme]] | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Verfahren | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme | +——————+————————-+———————–+———————-+——————–+———————–+——————-+\nFruit | Price | Advantages |\n+===========+===========+====================+ | Bananas | $1.34 | - built-in wrapper | | | | - bright color | +———–+———–+——————–+ | Oranges | $2.10 | - cures scurvy | | | | - tasty | +———–+———–+——————–+ ## Modul/Softwaretest\n\nEin Softwaretests, oder kurz einfach ein Test, führt eine einzelne Softwarekomponente aus und schaut obs stimmt.\nDie zu überprüfende Softwarekomponente wird Testobjekt genannt",
+    "text": "Übersichtsmatrix\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhase\n\n\n\n\n\n\n\n\n\n\nAbnahmetest\n[[Abnahmetests]]\n\n[[Abnahmetests]]\n\n\n\n\n\nSystemtest\n[[Systemtests]]\n\n[[Systemtests]]\n\n\n\n\n\nIntegrationstest\n[[Integrationstest]]\n\n[[Integrationstest]]\n\n\n\n\n\nKomponententest\n[[Kontrollflussgraph]]\n-\n[[Blackboxtesting]]\n[[Leistungstests]]\n[[Inspektion]]\n[[Prüfprogramme]]\n\n\nVerfahren\nKontrollflussorientiert\nDatenfluss-orientiert\nFunktionelle Tests\nLeistungstests\nManuelle Prüfmethoden\nPrüfprogramme",
+    "crumbs": [
+      "11 Qualitätssicherung",
+      "Testen"
+    ]
+  },
+  {
+    "objectID": "11 Qualitätssicherung/Testen/Testen.html#modulsoftwaretest",
+    "href": "11 Qualitätssicherung/Testen/Testen.html#modulsoftwaretest",
+    "title": "Softwaretechnik 1",
+    "section": "Modul/Softwaretest",
+    "text": "Modul/Softwaretest\n\nEin Softwaretests, oder kurz einfach ein Test, führt eine einzelne Softwarekomponente aus und schaut obs stimmt.\nDie zu überprüfende Softwarekomponente wird Testobjekt genannt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen"
