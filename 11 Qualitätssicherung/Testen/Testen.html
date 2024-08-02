@@ -98,35 +98,6 @@ cookieconsent.run({
 </script> 
   
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -908,13 +879,19 @@ window.Quarto = {
 <section id="übersichtsmatrix" class="level2">
 <h2 class="anchored" data-anchor-id="übersichtsmatrix">Übersichtsmatrix</h2>
 <hr>
+<p>+——————+————————-+———————–+———————+——————–+———————–+——————-+</p>
 <div class="line-block"><strong>Phase</strong> | | | | | | |</div>
-<div class="line-block">—————- | ———————– | ——————— | ——————– | —————— | ——————— | —————– |</div>
-<div class="line-block">Abnahmetest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Abnahmetests.html">Abnahmetests</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
-<div class="line-block">Systemtest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Systemtests.html">Systemtests</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
-<div class="line-block">Integrationstest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Integrationstest.html">Integrationstest</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
+<p>+==================+=========================+=======================+=====================+====================+=======================+===================+</p>
+<div class="line-block">Abnahmetest | <a href="../../11 Qualitätssicherung/Testen/Abnahmetests.html">Abnahmetests</a> |</div>
+<p>+——————+—————————————————————————————————————————————-+</p>
+<div class="line-block">Systemtest | <a href="../../11 Qualitätssicherung/Testen/Systemtests.html">Systemtests</a> |</div>
+<p>+——————+—————————————————————————————————————————————-+</p>
+<div class="line-block">Integrationstest | <a href="../../11 Qualitätssicherung/Testen/Integrationstest.html">Integrationstest</a> |</div>
+<p>+——————+————————-+———————–+———————+——————–+———————–+——————-+</p>
 <div class="line-block">Komponententest | <a href="../../11 Qualitätssicherung/Testen/Kontrollflussgraph.html">Kontrollflussgraph</a> | - | <a href="../../11 Qualitätssicherung/Testen/Blackboxtesting.html">Blackboxtesting</a> | <a href="../../11 Qualitätssicherung/Testen/Leistungstests.html">Leistungstests</a> | <a href="../../11 Qualitätssicherung/Testen/Inspektion.html">Inspektion</a> | <a href="../../11 Qualitätssicherung/Testen/Prüfprogramme.html">Prüfprogramme</a> |</div>
+<p>+——————+————————-+———————–+———————+——————–+———————–+——————-+</p>
 <div class="line-block"><strong>Verfahren</strong> | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme |</div>
+<p>+——————+————————-+———————–+———————+——————–+———————–+——————-+</p>
 </section>
 <section id="modulsoftwaretest" class="level2">
 <h2 class="anchored" data-anchor-id="modulsoftwaretest">Modul/Softwaretest</h2>

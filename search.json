@@ -793,6 +793,17 @@
     ]
   },
   {
+    "objectID": "13 Abnahme und Wartung/Wartung und Pflege.html#unsere-aufgaben",
+    "href": "13 Abnahme und Wartung/Wartung und Pflege.html#unsere-aufgaben",
+    "title": "Softwaretechnik 1",
+    "section": "Unsere Aufgaben",
+    "text": "Unsere Aufgaben\n\n\nkorrektive Tätigkeiten (Wartung)\n\nStabilisierung/Korrektur\nOptimierung/Leistungsverbesserung\n\nprogessive Tätigkeiten (Pflege)\n\nAnpassung/Änderung\nErweiterung\n\n\nDer Aufwand für die Wartung und Pflege ist normalerweise größer als der Entwicklungsaufwand, teilweise sogar um einen Faktor von 2 bis 4!\n-&gt; Im Extremfall sind in einer Abteilung 80 von 20 Mitarbeitern mit der Wartung und Pflege alter Software beschäftigt und nur 20 entwickeln neue Software.",
+    "crumbs": [
+      "13 Abnahme und Wartung",
+      "Wartung und Pflege"
+    ]
+  },
+  {
     "objectID": "13 Abnahme und Wartung/Wartung und Pflege.html#siehe-auch",
     "href": "13 Abnahme und Wartung/Wartung und Pflege.html#siehe-auch",
     "title": "Softwaretechnik 1",
@@ -852,7 +863,7 @@
     "href": "13 Abnahme und Wartung/Die Einführungsphase.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nHier wurde die Abnahmephase schon beendet. Danach beginnt die Einführungsphase, hier ist die Frage:\n\nWie installiere ich das Produkt (auf den Rechner, servern, wann, welches Datum)\nWie Schule ich die Benutzer und das Betriebspersonal?\nWie gestallte ich den Übergang zwischen intallation und betriebsnahme.\nAlle Vorkommnisse, die in der Einführungsphase auftreten, werden festgehalten\nBei Ersatz eines existierenden Systems: Umstellung der Datenbestände (z.b. Manuelle Karteien und Aktenbestände müssten oft erst aufbereitet oder zusammengestellt werden ZEIT!)\nWichtig ist es den Kunden mitzunehmen!\nEs gibt drei Arten der Einführungsphase\n1. Direkte Umstellung (schnipps auf einmal) (meist Risikoreich)\n\n2. Parallellauf (beide Systeme läufen parallel)\n\n3. Versuchslauf (wir testen mal das neue System und beides ist möglich)",
+    "text": "Definition\n\nHier wurde die Abnahmephase schon beendet. Danach beginnt die Einführungsphase, hier ist die Frage:\n\nWie installiere ich das Produkt (auf den Rechner, servern, wann, welches Datum)\nWie Schule ich die Benutzer und das Betriebspersonal?\nWie gestallte ich den Übergang zwischen intallation und betriebsnahme.\nAlle Vorkommnisse, die in der Einführungsphase auftreten, werden festgehalten\nBei Ersatz eines existierenden Systems: Umstellung der Datenbestände (z.b. Manuelle Karteien und Aktenbestände müssten oft erst aufbereitet oder zusammengestellt werden ZEIT!)\nWichtig ist es den Kunden mitzunehmen!\nEs gibt drei Arten der Einführungsphase\n1. Direkte Umstellung (Schnipps auf einmal) (meist Risikoreich)\n\n2. Parallellauf (beide Systeme laufen parallel)\n\n3. Versuchslauf (wir testen mal das neue System und beides ist möglich)",
     "crumbs": [
       "13 Abnahme und Wartung",
       "Die Einführungsphase"
@@ -870,11 +881,11 @@
     ]
   },
   {
-    "objectID": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#definition",
-    "href": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#definition",
+    "objectID": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#was-gibt-es-hier",
+    "href": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#was-gibt-es-hier",
     "title": "Softwaretechnik 1",
-    "section": "Definition",
-    "text": "Definition"
+    "section": "Was gibt es hier",
+    "text": "Was gibt es hier\n\nDie Abnahmephase\nDie Einführungsphase\nWartung und Pflege\nAnti Pattern\nRefactoring\nContinous Intergration\nContinous Delivery\nContinuous Deployment\nDevOps"
   },
   {
     "objectID": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#siehe-auch",
@@ -2853,7 +2864,7 @@
     "href": "11 Qualitätssicherung/Testen/Testen.html#übersichtsmatrix",
     "title": "Softwaretechnik 1",
     "section": "Übersichtsmatrix",
-    "text": "Übersichtsmatrix\n\nPhase | | | | | | |\n—————- | ———————– | ——————— | ——————– | —————— | ——————— | —————– |\nAbnahmetest | \\(\\rightarrow\\) | \\(\\rightarrow\\) | Abnahmetests | \\(\\leftarrow\\) | \\(\\leftarrow\\) | \\(\\leftarrow\\) |\nSystemtest | \\(\\rightarrow\\) | \\(\\rightarrow\\) | Systemtests | \\(\\leftarrow\\) | \\(\\leftarrow\\) | \\(\\leftarrow\\) |\nIntegrationstest | \\(\\rightarrow\\) | \\(\\rightarrow\\) | Integrationstest | \\(\\leftarrow\\) | \\(\\leftarrow\\) | \\(\\leftarrow\\) |\nKomponententest | Kontrollflussgraph | - | Blackboxtesting | Leistungstests | Inspektion | Prüfprogramme |\nVerfahren | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme |",
+    "text": "Übersichtsmatrix\n\n+——————+————————-+———————–+———————+——————–+———————–+——————-+\nPhase | | | | | | |\n+==================+=========================+=======================+=====================+====================+=======================+===================+\nAbnahmetest | Abnahmetests |\n+——————+—————————————————————————————————————————————-+\nSystemtest | Systemtests |\n+——————+—————————————————————————————————————————————-+\nIntegrationstest | Integrationstest |\n+——————+————————-+———————–+———————+——————–+———————–+——————-+\nKomponententest | Kontrollflussgraph | - | Blackboxtesting | Leistungstests | Inspektion | Prüfprogramme |\n+——————+————————-+———————–+———————+——————–+———————–+——————-+\nVerfahren | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme |\n+——————+————————-+———————–+———————+——————–+———————–+——————-+",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen"
