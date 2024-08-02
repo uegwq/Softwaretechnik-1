@@ -17,6 +17,9 @@ Zeigen so bisschen die Veränderung der Enums, Variablen unso
 ![[Pasted image 20240513115318.png]]
 ## Sequenzdiagramme
 ***
+>[!warning]
+>Ein Sequenzdiagramm ermöglich die **exemplarische** Darstellung ***eines*** möglichen Ablaufs; es wird wird also ein spezieller Use-Case dargestellt
+
 Wir beschränken uns hier in der Vorlesung auf diese.
 Sequenzdiagramme sind **exemplarisch**. Sie wurden ursprünglich für die Modelierung von Telekommunikationsdienste entwickelt. Die Zeit läuft in Sequenzdiagramme von oben nach unten und es ist die frage immer "was muss wo passieren damit was wo passieren kann". Sequenzdiagramme haben den vorteil, dass sie intuitiv sind und um Integrationstestfälle, Protokolle (für verbotenes verhalten) und erlaubten nachrichtenverlauf zu beschreiben.
 Man kann mit Sequenzdiagrammen sogar Synchrones verhalten so irgendwie darstellen ob etwas als sofortige Antwort passiert. (KEINE VOLLSTÄNDIGE VERHALTENSBESCHREIBUNG! NUR EXEMPLARISCH)

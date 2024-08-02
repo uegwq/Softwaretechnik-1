@@ -16,7 +16,6 @@ website:
   sidebar:
     style: "docked"
     search: true
-    contents:
       - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
@@ -42,13 +41,15 @@ website:
           - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Wasserfallmodell.md"
         - "2 Vorgehensmodell/Was ist Qualität.md"
       - section: "3 Anforderungsanalyse"
+        href: 3 Anforderungsanalyse/3 Anforderungsanalyse.md
         contents:
         - "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.md"
         - "3 Anforderungsanalyse/Anforderungen.md"
         - "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.md"
-        - "3 Anforderungsanalyse/Motivation.md"
+        - "3 Anforderungsanalyse/Lastenheft.md"
         - "3 Anforderungsanalyse/Use-Case.md"
       - section: "4 Modellierung"
+        href: 4 Modellierung/4 Modellierung.md
         contents:
         - "4 Modellierung/Aktivitätsdiagramme.md"
         - "4 Modellierung/Anwendungsfalldiagramm (use case diagram).md"
@@ -58,7 +59,6 @@ website:
         - "4 Modellierung/Modell und Realität.md"
         - "4 Modellierung/Paketdiagramme.md"
         - "4 Modellierung/Polymorphie.md"
-        - "4 Modellierung/Sequenzdiagramme.md"
         - "4 Modellierung/Sichtbarkeit.md"
         - "4 Modellierung/Systemmodelierung.md"
         - "4 Modellierung/UML - Unified Modeling Language.md"

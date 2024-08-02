@@ -9,7 +9,7 @@ Klassendiagramme
 ![test](<Pasted image 20240503103546.png>)
 ## Definition
 ***
-Es geht hierbei um Modelierung von Daten.f
+Es geht hierbei um Modelierung von Daten.
 Merke: Eine Klasse ist eine Sammlung von Objekten mit gemeinsamen Eigenschaften, Einschränkungen und Semantik.
 ## Objekt
 ***
@@ -47,6 +47,10 @@ Eine Methodensignatur besteht aus:
 ![[Pasted image 20240429122047.png]]
 #### Parameter für Operationen
 ![[Pasted image 20240429122147.png]]
+#### (Statische) Klassenatribute
+Sie werden unterstrichen und dann sind sie statisch.
+###### Beispiel:
+![[Pasted image 20240802124822.png]]
 ## Assoziation
 ***
 Wenn zwei Klassen sich kennen sollen (z.b. Person und Firma), dann haben sie eine Assoziation
@@ -62,12 +66,26 @@ Ein Spezialfall der Aggregation ist die Komposition. Eine Komposition besteht zw
 Kompositum hat alleinige Verantwortung für Erzeugung/Löschung seiner Komponenten. Kompositum gelöscht à alle seine Komponenten gelöscht.
 ![[Pasted image 20240503100334.png]]
 ### Vererbung
-"Vererbung braucht man eigentlich nur ganz selten und in den Klausuraufgaben schreien Formulierungen immer nach Vererbung."
+
+>[!Quote] Liskovsches Substitutionsprinzip
+>In einem Programm, in dem $U$ eine Unterklasse von $O$ ist, kann jedes Exemplar der Klasse $O$ durch ein Exemplar von $U$ ersetzt werden, wobei das Programm weiterhin korrekt funktioniert. 
+>$\implies$ Jedes benutzte Säugetier Objekt kann durch ein Katzen Objekt ersetzt werden.
+
+>[!quote] Aus der VL
+>"Vererbung braucht man eigentlich nur ganz selten und in den Klausuraufgaben schreien Formulierungen immer nach Vererbung."
+
 Eine Vererbungsbeziehung von einer Klasse K1 zu einer Klasse K2 ist eine Beschreibung der Tatsache, dass alle Objekte der Klasse K2 zusätzlich zu den in der Klasse K2 beschriebenen Eigenschaften auch alle Eigenschaften der Klasse K1 haben.
 ![[Pasted image 20240503103621.png]]
 ## Schnittstellen
 ***
 Eine Schnittstelle ist eine Art Klasse mit Methoden, ohne eine Konkrete Implementierung. Klassen, die eine Schnittstelle implementieren füllen diese Methoden mit Leben :O. Man kann dann diese Schnittstellenunterklasse verwenden wie das Liskovsche Substitutionsprinzip. 
+![[Pasted image 20240802130132.png]]
+## Sichtbarkeit
+***
+Die beiden wichtigen Sichtbarkeitsstufen lauten:
+- ("-") - privat
+- ("+") - öffentlich
+![[Pasted image 20240802151527.png]]
 ## Siehe auch
 ***
 * Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt

@@ -2,10 +2,15 @@
 TARGET DECK
 Softwaretechnik I
 
-TITLE
+Aktivitätsdiagramme
 --
 ## Steckbrief und Überblick
-![[Pasted image 20240503111051.png]]![[Pasted image 20240503111058.png]]![[Pasted image 20240503111104.png]]
+***
+![[Pasted image 20240503111051.png]]![[Pasted image 20240503111058.png]]
+>[!warning]
+>Durch die decisions wird keine Parallelität möglich!!
+
+![[Pasted image 20240503111104.png]]
 ## Definition
 ***
 Das ist ein Verhaltensdiagram typ welches Abläufe u.a. in Use Cases beschreibt. Diese können z.b.
@@ -23,7 +28,7 @@ Diese bestehen ausw
 #### Parallelität
 Eine Transition wird auf mehrere Ziele Verteilt.
 ![[Pasted image 20240503110321.png]]
-Die Join node wird nur ausgeführt, wenn alle parralelen Prozesse verfügbar sind.![[Pasted image 20240503110445.png]]
+***Die Join node wird nur ausgeführt, wenn alle parralelen Prozesse verfügbar sind.***![[Pasted image 20240503110445.png]]
 ## Beispiel
 ***
 ![[Pasted image 20240503105940.png]]
