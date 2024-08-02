@@ -6,7 +6,7 @@ Anti Pattern
 --
 ## Definition
 ***
-Das gegenteil eines Entwurfsmusters, also Dinge, die man nicht tun soll.
+Das Gegenteil eines Entwurfsmusters, also Dinge, die man nicht tun soll.
 ## The Blob (aka God Class)
 ![[Pasted image 20240701121756.png]]
 ## Golden Hammer

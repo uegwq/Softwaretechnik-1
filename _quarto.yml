@@ -16,6 +16,8 @@ website:
   sidebar:
     style: "docked"
     search: true
+
+
       - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
@@ -136,6 +138,7 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
+
 
 execute:
   freeze: true
