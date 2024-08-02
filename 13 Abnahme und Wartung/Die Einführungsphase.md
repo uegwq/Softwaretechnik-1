@@ -14,8 +14,8 @@ Hier wurde die Abnahmephase schon beendet. Danach beginnt die Einführungsphase,
 * Bei Ersatz eines existierenden Systems: Umstellung der Datenbestände (z.b. Manuelle Karteien und Aktenbestände müssten oft erst aufbereitet oder zusammengestellt werden ZEIT!)
 * Wichtig ist es den Kunden mitzunehmen!
 * Es gibt drei Arten der Einführungsphase
-	  1. Direkte Umstellung (schnipps auf einmal) (meist Risikoreich)
-	  2. Parallellauf (beide Systeme läufen parallel)
+	  1. Direkte Umstellung (Schnipps auf einmal) (meist Risikoreich)
+	  2. Parallellauf (beide Systeme laufen parallel)
 	  3. Versuchslauf (wir testen mal das neue System und beides ist möglich)
 ## Siehe auch
 ***

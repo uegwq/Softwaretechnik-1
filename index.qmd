@@ -41,7 +41,7 @@ Hallihallo! Willkommen zu meinen Notizen zu der Softwaretechnik 1 Vorlesung von 
 - [X] Vorlesung 10
 - [X] Vorlesung 11
 - [X] Vorlesung 12
-- [ ] Vorlesung 13
+- [X] Vorlesung 13
 - [ ] Vorlesung 14
 
 TODO: Entwurfsmuster Observer genauer anschauen observer ist irgendwie komisch

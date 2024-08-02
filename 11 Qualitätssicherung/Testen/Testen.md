@@ -6,14 +6,20 @@ Testen
 --
 ## Übersichtsmatrix
 ***
++------------------+-------------------------+-----------------------+---------------------+--------------------+-----------------------+-------------------+
+| **Phase**        |                         |                       |                     |                    |                       |                   |
++==================+=========================+=======================+=====================+====================+=======================+===================+
+| Abnahmetest      |                                                           [[Abnahmetests]]                                                             |
++------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+| Systemtest       |                                                           [[Systemtests]]                                                              |
++------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+| Integrationstest |                                                         [[Integrationstest]]                                                           |
++------------------+-------------------------+-----------------------+---------------------+--------------------+-----------------------+-------------------+
+| Komponententest  | [[Kontrollflussgraph]]  | -                     | [[Blackboxtesting]] | [[Leistungstests]] | [[Inspektion]]        | [[Prüfprogramme]] |
++------------------+-------------------------+-----------------------+---------------------+--------------------+-----------------------+-------------------+
+| **Verfahren**    | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests  | Leistungstests     | Manuelle Prüfmethoden | Prüfprogramme     |
++------------------+-------------------------+-----------------------+---------------------+--------------------+-----------------------+-------------------+
 
-| **Phase**        |                         |                       |                      |                    |                       |                   |
-| ---------------- | ----------------------- | --------------------- | -------------------- | ------------------ | --------------------- | ----------------- |
-| Abnahmetest      | $\rightarrow$           | $\rightarrow$         | [[Abnahmetests]]     | $\leftarrow$       | $\leftarrow$          | $\leftarrow$      |
-| Systemtest       | $\rightarrow$           | $\rightarrow$         | [[Systemtests]]      | $\leftarrow$       | $\leftarrow$          | $\leftarrow$      |
-| Integrationstest | $\rightarrow$           | $\rightarrow$         | [[Integrationstest]] | $\leftarrow$       | $\leftarrow$          | $\leftarrow$      |
-| Komponententest  | [[Kontrollflussgraph]]  | -                     | [[Blackboxtesting]]  | [[Leistungstests]] | [[Inspektion]]        | [[Prüfprogramme]] |
-| **Verfahren**    | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests   | Leistungstests     | Manuelle Prüfmethoden | Prüfprogramme     |
 
 ## Modul/Softwaretest
 ***
