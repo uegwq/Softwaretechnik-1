@@ -263,6 +263,258 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
+      - section: ".trash"
+        contents:
+      - section: "1 Einführung und Überblick"
+        contents:
+        - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
+      - section: "2 Vorgehensmodell"
+        contents:
+        - "2 Vorgehensmodell/Eigenschaften von Software.md"
+        - section: "Iterative Vorgehensmodelle"
+          href: 2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md
+          contents:
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/eXtreme Programming..md"
+        - "2 Vorgehensmodell/Softwarequalitätssicherung.md"
+        - section: "Vorgehens-Prozessmodelle"
+          href: 2 Vorgehensmodell/Vorgehens-Prozessmodelle/Vorgehens-Prozessmodelle.md
+          contents:
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Aktivitäten in der Softwareentwicklung.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Nutzen von Vorgehensmodellen.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Prototypmodell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Trial and Error.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/V-Modell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Wasserfallmodell.md"
+        - "2 Vorgehensmodell/Was ist Qualität.md"
+      - section: "3 Anforderungsanalyse"
+        href: 3 Anforderungsanalyse/3 Anforderungsanalyse.md
+        contents:
+        - "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.md"
+        - "3 Anforderungsanalyse/Anforderungen.md"
+        - "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.md"
+        - "3 Anforderungsanalyse/Lastenheft.md"
+        - "3 Anforderungsanalyse/Use-Case.md"
+      - section: "4 Modellierung"
+        href: 4 Modellierung/4 Modellierung.md
+        contents:
+        - "4 Modellierung/Aktivitätsdiagramme.md"
+        - "4 Modellierung/Anwendungsfalldiagramm (use case diagram).md"
+        - "4 Modellierung/Interaktionsdiagramme.md"
+        - "4 Modellierung/Klassendiagramme.md"
+        - "4 Modellierung/Liskovsches Substitutionsprinzip.md"
+        - "4 Modellierung/Modell und Realität.md"
+        - "4 Modellierung/Paketdiagramme.md"
+        - "4 Modellierung/Polymorphie.md"
+        - "4 Modellierung/Sichtbarkeit.md"
+        - "4 Modellierung/Systemmodelierung.md"
+        - "4 Modellierung/UML - Unified Modeling Language.md"
+        - "4 Modellierung/Was ist ein gutes Modell.md"
+        - "4 Modellierung/Zustandsdiagramme.md"
+      - section: "7 Architektur"
+        href: 7 Architektur/7 Architektur.md
+        contents:
+        - section: "Architekturstile"
+          href: 7 Architektur/Architekturstile/Architekturstile.md
+          contents:
+          - "7 Architektur/Architekturstile/Blackboard.md"
+          - "7 Architektur/Architekturstile/Klient-Dienstgeber.md"
+          - "7 Architektur/Architekturstile/Peer-to-Peer Network.md"
+          - "7 Architektur/Architekturstile/Pipeline (dt. Fließband).md"
+          - "7 Architektur/Architekturstile/Schichtenarchitektur.md"
+          - "7 Architektur/Architekturstile/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.md"
+        - "7 Architektur/Komponentendiagramme.md"
+        - "7 Architektur/Verteilungsdiagram.md"
+      - section: "9 Entwurfsmuster"
+        href: 9 Entwurfsmuster/9 Entwurfsmuster.md
+        contents:
+        - section: "Erzeugungsmuster"
+          contents:
+          - "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.md"
+          - "9 Entwurfsmuster/Erzeugungsmuster/Singleton.md"
+        - "9 Entwurfsmuster/Klassifizierung der Muster.md"
+        - "9 Entwurfsmuster/Modell-view-controller.md"
+        - section: "Strukturmuster"
+          contents:
+          - "9 Entwurfsmuster/Strukturmuster/Adapter.md"
+          - "9 Entwurfsmuster/Strukturmuster/Composite.md"
+          - "9 Entwurfsmuster/Strukturmuster/Decorator.md"
+          - "9 Entwurfsmuster/Strukturmuster/Facade.md"
+          - "9 Entwurfsmuster/Strukturmuster/Observer.md"
+          - "9 Entwurfsmuster/Strukturmuster/Proxy.md"
+        - section: "Verhaltensmuster"
+          contents:
+          - "9 Entwurfsmuster/Verhaltensmuster/Strategy.md"
+          - "9 Entwurfsmuster/Verhaltensmuster/Visitor.md"
+      - section: "11 Qualitätssicherung"
+        contents:
+        - "11 Qualitätssicherung/Inspektion.md"
+        - section: "Testen"
+          contents:
+          - "11 Qualitätssicherung/Testen/11 Qualitätssicherung.md"
+          - "11 Qualitätssicherung/Testen/Abnahmetests.md"
+          - "11 Qualitätssicherung/Testen/Blackboxtesting.md"
+          - "11 Qualitätssicherung/Testen/Integrationstest.md"
+          - "11 Qualitätssicherung/Testen/Kontrollflussgraph.md"
+          - "11 Qualitätssicherung/Testen/Systemtests.md"
+          - "11 Qualitätssicherung/Testen/Testwerkzeuge.md"
+          - "11 Qualitätssicherung/Testen/Zwischensprache.md"
+          - "11 Qualitätssicherung/Testen/Überdeckungskriterien.md"
+      - section: "13 Abnahme und Wartung"
+        contents:
+        - "13 Abnahme und Wartung/Anti Pattern.md"
+        - "13 Abnahme und Wartung/Bugtracking.md"
+        - "13 Abnahme und Wartung/Continous Delivery.md"
+        - "13 Abnahme und Wartung/Continous Intergration.md"
+        - "13 Abnahme und Wartung/Continuous Deployment.md"
+        - "13 Abnahme und Wartung/DevOps.md"
+        - "13 Abnahme und Wartung/Die Abnahmephase.md"
+        - "13 Abnahme und Wartung/Die Einführungsphase.md"
+        - "13 Abnahme und Wartung/Refactoring.md"
+        - "13 Abnahme und Wartung/Wartung und Pflege.md"
+      - section: "14 Projektmanagement"
+        contents:
+        - "14 Projektmanagement/Aufwandsschätzung.md"
+        - "14 Projektmanagement/Gantt-Diagramme.md"
+        - "14 Projektmanagement/Inhalte der Planung.md"
+        - "14 Projektmanagement/Netzpläne.md"
+        - "14 Projektmanagement/Planungstechniken.md"
+        - "14 Projektmanagement/Projektplanung.md"
+        - "14 Projektmanagement/Projektstrukturplan.md"
+        - "14 Projektmanagement/Reifegradmodelle.md"
+        - "14 Projektmanagement/Risikomanagemt.md"
+        - "14 Projektmanagement/Was ist ein Projekt.md"
+        - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
+      - "README.md"
+      - "index.qmd"
+      - section: ".trash"
+        contents:
+      - section: "1 Einführung und Überblick"
+        contents:
+        - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
+      - section: "2 Vorgehensmodell"
+        contents:
+        - "2 Vorgehensmodell/Eigenschaften von Software.md"
+        - section: "Iterative Vorgehensmodelle"
+          href: 2 Vorgehensmodell/Iterative Vorgehensmodelle/Iterative Vorgehensmodelle.md
+          contents:
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Manifesto for Agile Software Developement.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/Spiralmodell.md"
+          - "2 Vorgehensmodell/Iterative Vorgehensmodelle/eXtreme Programming..md"
+        - "2 Vorgehensmodell/Softwarequalitätssicherung.md"
+        - section: "Vorgehens-Prozessmodelle"
+          href: 2 Vorgehensmodell/Vorgehens-Prozessmodelle/Vorgehens-Prozessmodelle.md
+          contents:
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Aktivitäten in der Softwareentwicklung.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Nutzen von Vorgehensmodellen.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Prototypmodell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Trial and Error.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/V-Modell.md"
+          - "2 Vorgehensmodell/Vorgehens-Prozessmodelle/Wasserfallmodell.md"
+        - "2 Vorgehensmodell/Was ist Qualität.md"
+      - section: "3 Anforderungsanalyse"
+        href: 3 Anforderungsanalyse/3 Anforderungsanalyse.md
+        contents:
+        - "3 Anforderungsanalyse/(nicht)-Funktionale Anforderungen.md"
+        - "3 Anforderungsanalyse/Anforderungen.md"
+        - "3 Anforderungsanalyse/Bestandteile der Anforderungsanalyse.md"
+        - "3 Anforderungsanalyse/Lastenheft.md"
+        - "3 Anforderungsanalyse/Use-Case.md"
+      - section: "4 Modellierung"
+        href: 4 Modellierung/4 Modellierung.md
+        contents:
+        - "4 Modellierung/Aktivitätsdiagramme.md"
+        - "4 Modellierung/Anwendungsfalldiagramm (use case diagram).md"
+        - "4 Modellierung/Interaktionsdiagramme.md"
+        - "4 Modellierung/Klassendiagramme.md"
+        - "4 Modellierung/Liskovsches Substitutionsprinzip.md"
+        - "4 Modellierung/Modell und Realität.md"
+        - "4 Modellierung/Paketdiagramme.md"
+        - "4 Modellierung/Polymorphie.md"
+        - "4 Modellierung/Sichtbarkeit.md"
+        - "4 Modellierung/Systemmodelierung.md"
+        - "4 Modellierung/UML - Unified Modeling Language.md"
+        - "4 Modellierung/Was ist ein gutes Modell.md"
+        - "4 Modellierung/Zustandsdiagramme.md"
+      - section: "7 Architektur"
+        href: 7 Architektur/7 Architektur.md
+        contents:
+        - section: "Architekturstile"
+          href: 7 Architektur/Architekturstile/Architekturstile.md
+          contents:
+          - "7 Architektur/Architekturstile/Blackboard.md"
+          - "7 Architektur/Architekturstile/Klient-Dienstgeber.md"
+          - "7 Architektur/Architekturstile/Peer-to-Peer Network.md"
+          - "7 Architektur/Architekturstile/Pipeline (dt. Fließband).md"
+          - "7 Architektur/Architekturstile/Schichtenarchitektur.md"
+          - "7 Architektur/Architekturstile/Service Oriented Architecture (SOA) Dienstorientierte Architekturen.md"
+        - "7 Architektur/Komponentendiagramme.md"
+        - "7 Architektur/Verteilungsdiagram.md"
+      - section: "9 Entwurfsmuster"
+        href: 9 Entwurfsmuster/9 Entwurfsmuster.md
+        contents:
+        - section: "Erzeugungsmuster"
+          contents:
+          - "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.md"
+          - "9 Entwurfsmuster/Erzeugungsmuster/Singleton.md"
+        - "9 Entwurfsmuster/Klassifizierung der Muster.md"
+        - "9 Entwurfsmuster/Modell-view-controller.md"
+        - section: "Strukturmuster"
+          contents:
+          - "9 Entwurfsmuster/Strukturmuster/Adapter.md"
+          - "9 Entwurfsmuster/Strukturmuster/Composite.md"
+          - "9 Entwurfsmuster/Strukturmuster/Decorator.md"
+          - "9 Entwurfsmuster/Strukturmuster/Facade.md"
+          - "9 Entwurfsmuster/Strukturmuster/Observer.md"
+          - "9 Entwurfsmuster/Strukturmuster/Proxy.md"
+        - section: "Verhaltensmuster"
+          contents:
+          - "9 Entwurfsmuster/Verhaltensmuster/Strategy.md"
+          - "9 Entwurfsmuster/Verhaltensmuster/Visitor.md"
+      - section: "11 Qualitätssicherung"
+        contents:
+        - "11 Qualitätssicherung/Inspektion.md"
+        - section: "Testen"
+          contents:
+          - "11 Qualitätssicherung/Testen/11 Qualitätssicherung.md"
+          - "11 Qualitätssicherung/Testen/Abnahmetests.md"
+          - "11 Qualitätssicherung/Testen/Blackboxtesting.md"
+          - "11 Qualitätssicherung/Testen/Integrationstest.md"
+          - "11 Qualitätssicherung/Testen/Kontrollflussgraph.md"
+          - "11 Qualitätssicherung/Testen/Systemtests.md"
+          - "11 Qualitätssicherung/Testen/Testwerkzeuge.md"
+          - "11 Qualitätssicherung/Testen/Zwischensprache.md"
+          - "11 Qualitätssicherung/Testen/Überdeckungskriterien.md"
+      - section: "13 Abnahme und Wartung"
+        contents:
+        - "13 Abnahme und Wartung/Anti Pattern.md"
+        - "13 Abnahme und Wartung/Bugtracking.md"
+        - "13 Abnahme und Wartung/Continous Delivery.md"
+        - "13 Abnahme und Wartung/Continous Intergration.md"
+        - "13 Abnahme und Wartung/Continuous Deployment.md"
+        - "13 Abnahme und Wartung/DevOps.md"
+        - "13 Abnahme und Wartung/Die Abnahmephase.md"
+        - "13 Abnahme und Wartung/Die Einführungsphase.md"
+        - "13 Abnahme und Wartung/Refactoring.md"
+        - "13 Abnahme und Wartung/Wartung und Pflege.md"
+      - section: "14 Projektmanagement"
+        contents:
+        - "14 Projektmanagement/Aufwandsschätzung.md"
+        - "14 Projektmanagement/Gantt-Diagramme.md"
+        - "14 Projektmanagement/Inhalte der Planung.md"
+        - "14 Projektmanagement/Netzpläne.md"
+        - "14 Projektmanagement/Planungstechniken.md"
+        - "14 Projektmanagement/Projektplanung.md"
+        - "14 Projektmanagement/Projektstrukturplan.md"
+        - "14 Projektmanagement/Reifegradmodelle.md"
+        - "14 Projektmanagement/Risikomanagemt.md"
+        - "14 Projektmanagement/Was ist ein Projekt.md"
+        - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
+      - "README.md"
+      - "index.qmd"
 
 
 execute:
