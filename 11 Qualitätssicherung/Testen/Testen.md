@@ -8,14 +8,13 @@ Testen
 ***
 <!--TAGS-->
 
-| **Phase**        |                         |                       |                      |                    |                       |                   |
-|------------------|-------------------------|-----------------------|----------------------|--------------------|-----------------------|-------------------|
-| Abnahmetest      |   [[Abnahmetests]]      |                       | [[Abnahmetests]]     |                    |                       |                   |
-| Systemtest       |    [[Systemtests]]      |                       | [[Systemtests]]      |                    |                       |                   |
-| Integrationstest | [[Integrationstest]]    |                       | [[Integrationstest]] |                    |                       |                   |
-| Komponententest  | [[Kontrollflussgraph]]  | -                     | [[Blackboxtesting]]  | [[Leistungstests]] | [[Inspektion]]        | [[Prüfprogramme]] |
-| **Verfahren**    | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests   | Leistungstests     | Manuelle Prüfmethoden | Prüfprogramme     |
-
+| **Phase**        |                                                                             |                       |                                                                         |                                                                     |                                                             |                                                                   |
+| ---------------- | --------------------------------------------------------------------------- | --------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------- |
+| Abnahmetest      | [Abnahmetests](</11 Qualitätssicherung/Testen/Abnahmetests.md>)             |                       | [Abnahmetests](</11 Qualitätssicherung/Testen/Abnahmetests.md>)         |                                                                     |                                                             |                                                                   |
+| Systemtest       | [Systemtests](</11 Qualitätssicherung/Testen/Systemtests.md>)               |                       | [Systemtests](</11 Qualitätssicherung/Testen/Systemtests.md>)           |                                                                     |                                                             |                                                                   |
+| Integrationstest | [Integrationstest](</11 Qualitätssicherung/Testen/Integrationstest.md>)     |                       | [Integrationstest](</11 Qualitätssicherung/Testen/Integrationstest.md>) |                                                                     |                                                             |                                                                   |
+| Komponententest  | [Kontrollflussgraph](</11 Qualitätssicherung/Testen/Kontrollflussgraph.md>) | -                     | [Blackboxtesting](</11 Qualitätssicherung/Testen/Blackboxtesting.md>)   | [Leistungstests](</11 Qualitätssicherung/Testen/Leistungstests.md>) | [Inspektion](</11 Qualitätssicherung/Testen/Inspektion.md>) | [Prüfprogramme](</11 Qualitätssicherung/Testen/Prüfprogramme.md>) |
+| **Verfahren**    | Kontrollflussorientiert                                                     | Datenfluss-orientiert | Funktionelle Tests                                                      | Leistungstests                                                      | Manuelle Prüfmethoden                                       | Prüfprogramme                                                     |
 <!--/TAGS-->
 ## Modul/Softwaretest
 ***
