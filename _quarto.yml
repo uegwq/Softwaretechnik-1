@@ -5,6 +5,7 @@ date: 2024-07-20
 lang: de
 
 website:
+  google-analytics: "G-KWGSWTLBMR"
   repo-url: https://github.com/uegwq/Softwaretechnik-1-Notizen/
   repo-actions: [edit, issue]
   title: "Softwaretechnik 1"
