@@ -22,6 +22,9 @@ Testen
 | **Verfahren**    | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests   | Leistungstests     | Manuelle Prüfmethoden | Prüfprogramme     |
 +------------------+-------------------------+-----------------------+----------------------+--------------------+-----------------------+-------------------+
 <!--/TAGS-->
+
+
+
 <!--TAGS-->
 +-----------+-----------+--------------------+
 | Fruit     | Price     | Advantages         |
