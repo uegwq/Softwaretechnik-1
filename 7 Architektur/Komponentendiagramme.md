@@ -4,6 +4,9 @@ Softwaretechnik I
 
 Komponentendiagramme
 --
+## Überblick
+***
+![[Pasted image 20240802162224.png]]
 ## Beispiel
 ***
 Komponentendiegramme zeigen so ein bisschen die Architektur und stellen dar, wie sich das System zusammensetzt.

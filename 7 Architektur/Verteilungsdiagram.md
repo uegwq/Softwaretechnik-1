@@ -7,6 +7,9 @@ Verteilungsdiagram
 ## Steckbrief
 ***
 ![[Pasted image 20240603120420.png]]
+## Überblick
+***
+![[Pasted image 20240802162243.png]]
 ## Beispiel
 ***
 ![[Pasted image 20240603120433.png]]
