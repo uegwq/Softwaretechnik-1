@@ -1347,21 +1347,30 @@
     "href": "10 Programmierrichtlinien/10 Programmierrichtlinien.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nSorry hier schreibe ich nichts genaueres weil es für mich ziemlich trivial ist und ich mich mit git auskenne und diese refactoring Sachen bisschen trivial sind.\nBzw. ne es gibt dieses Bild"
+    "text": "Definition\n\nSorry hier schreibe ich nichts genaueres weil es für mich ziemlich trivial ist und ich mich mit git auskenne und diese refactoring Sachen bisschen trivial sind.\nBzw. ne es gibt dieses Bild",
+    "crumbs": [
+      "10 Programmierrichtlinien"
+    ]
   },
   {
     "objectID": "10 Programmierrichtlinien/10 Programmierrichtlinien.html#git",
     "href": "10 Programmierrichtlinien/10 Programmierrichtlinien.html#git",
     "title": "Softwaretechnik 1",
     "section": "Git",
-    "text": "Git"
+    "text": "Git",
+    "crumbs": [
+      "10 Programmierrichtlinien"
+    ]
   },
   {
     "objectID": "10 Programmierrichtlinien/10 Programmierrichtlinien.html#siehe-auch",
     "href": "10 Programmierrichtlinien/10 Programmierrichtlinien.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "10 Programmierrichtlinien"
+    ]
   },
   {
     "objectID": "9 Entwurfsmuster/9 Entwurfsmuster.html#liste-aller-relevanten-entwurfsmuster",
@@ -1398,21 +1407,36 @@
     "href": "9 Entwurfsmuster/Verhaltensmuster/Observer.html#definition",
     "title": "Softwaretechnik 1",
     "section": "Definition",
-    "text": "Definition\n\nLaut tutor wichtig für die Klausur"
+    "text": "Definition\n\nLaut tutor wichtig für die Klausur",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Observer"
+    ]
   },
   {
     "objectID": "9 Entwurfsmuster/Verhaltensmuster/Observer.html#vorgehen",
     "href": "9 Entwurfsmuster/Verhaltensmuster/Observer.html#vorgehen",
     "title": "Softwaretechnik 1",
     "section": "Vorgehen",
-    "text": "Vorgehen\n\n\nDas interface Oberserver erstellen\n\nDas abstrakte Subjekt erstellen"
+    "text": "Vorgehen\n\n\nDas interface Oberserver erstellen\n\nDas abstrakte Subjekt erstellen",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Observer"
+    ]
   },
   {
     "objectID": "9 Entwurfsmuster/Verhaltensmuster/Observer.html#siehe-auch",
     "href": "9 Entwurfsmuster/Verhaltensmuster/Observer.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Entwurfsmuster",
+      "Verhaltensmuster",
+      "Observer"
+    ]
   },
   {
     "objectID": "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.html#definition",
