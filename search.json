@@ -885,14 +885,20 @@
     "href": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#was-gibt-es-hier",
     "title": "Softwaretechnik 1",
     "section": "Was gibt es hier",
-    "text": "Was gibt es hier\n\nDie Abnahmephase\nDie Einführungsphase\nWartung und Pflege\nAnti Pattern\nRefactoring\nContinous Intergration\nContinous Delivery\nContinuous Deployment\nDevOps"
+    "text": "Was gibt es hier\n\nDie Abnahmephase\nDie Einführungsphase\nWartung und Pflege\nAnti Pattern\nRefactoring\nContinous Intergration\nContinous Delivery\nContinuous Deployment\nDevOps",
+    "crumbs": [
+      "13 Abnahme und Wartung"
+    ]
   },
   {
     "objectID": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#siehe-auch",
     "href": "13 Abnahme und Wartung/13 Abnahme und Wartung.html#siehe-auch",
     "title": "Softwaretechnik 1",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "13 Abnahme und Wartung"
+    ]
   },
   {
     "objectID": "2 Vorgehensmodell/Iterative Vorgehensmodelle/Scrum.html#übersicht",
@@ -2864,18 +2870,7 @@
     "href": "11 Qualitätssicherung/Testen/Testen.html#übersichtsmatrix",
     "title": "Softwaretechnik 1",
     "section": "Übersichtsmatrix",
-    "text": "Übersichtsmatrix\n\nPhase | | | | | | |\n|——————|————————-|———————–|———————-|——————–|———————–|——————-|\nAbnahmetest | Abnahmetests | | Abnahmetests | | | |\nSystemtest | Systemtests | | Systemtests | | | |\nIntegrationstest | Integrationstest | | Integrationstest | | | |\nKomponententest | Kontrollflussgraph | - | Blackboxtesting | Leistungstests | Inspektion | Prüfprogramme |\nVerfahren | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme |",
-    "crumbs": [
-      "11 Qualitätssicherung",
-      "Testen"
-    ]
-  },
-  {
-    "objectID": "11 Qualitätssicherung/Testen/Testen.html#modulsoftwaretest",
-    "href": "11 Qualitätssicherung/Testen/Testen.html#modulsoftwaretest",
-    "title": "Softwaretechnik 1",
-    "section": "Modul/Softwaretest",
-    "text": "Modul/Softwaretest\n\nEin Softwaretests, oder kurz einfach ein Test, führt eine einzelne Softwarekomponente aus und schaut obs stimmt.\nDie zu überprüfende Softwarekomponente wird Testobjekt genannt",
+    "text": "Übersichtsmatrix\n\nPhase | | | | | | |\n+==================+=========================+=======================+======================+====================+=======================+===================+ | Abnahmetest | [[Abnahmetests]] | +——————+—————————————————————————————————————————————–+ | Systemtest | [[Systemtests]] | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Integrationstest | | | [[Integrationstest]] | | | | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Komponententest | [[Kontrollflussgraph]] | - | [[Blackboxtesting]] | [[Leistungstests]] | [[Inspektion]] | [[Prüfprogramme]] | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Verfahren | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme | +——————+————————-+———————–+———————-+——————–+———————–+——————-+ | Fruit | Price | Advantages | +===========+===========+====================+ | Bananas | $1.34 | - built-in wrapper | | | | - bright color | +———–+———–+——————–+ | Oranges | $2.10 | - cures scurvy | | | | - tasty | +———–+———–+——————–+ ## Modul/Softwaretest\n\nEin Softwaretests, oder kurz einfach ein Test, führt eine einzelne Softwarekomponente aus und schaut obs stimmt.\nDie zu überprüfende Softwarekomponente wird Testobjekt genannt",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen"
