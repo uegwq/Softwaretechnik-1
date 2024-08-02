@@ -18,7 +18,6 @@ website:
     search: true
     contents:
 
-
       - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
@@ -125,6 +124,7 @@ website:
           - "11 Qualitätssicherung/Testen/Zwischensprache.md"
           - "11 Qualitätssicherung/Testen/Überdeckungskriterien.md"
       - section: "13 Abnahme und Wartung"
+        href: 13 Abnahme und Wartung/13 Abnahme und Wartung.md
         contents:
         - "13 Abnahme und Wartung/Anti Pattern.md"
         - "13 Abnahme und Wartung/Bugtracking.md"
