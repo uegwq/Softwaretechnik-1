@@ -18,6 +18,7 @@ website:
     search: true
     contents:
 
+
       - section: "1 Einführung und Überblick"
         contents:
         - "1 Einführung und Überblick/Inhalt der Vorlesung.md"
@@ -87,7 +88,6 @@ website:
           contents:
           - "9 Entwurfsmuster/Erzeugungsmuster/Abstract Factory.md"
           - "9 Entwurfsmuster/Erzeugungsmuster/Singleton.md"
-        - "9 Entwurfsmuster/Klassifizierung der Muster.md"
         - "9 Entwurfsmuster/Modell-view-controller.md"
         - section: "Strukturmuster"
           contents:
@@ -95,12 +95,18 @@ website:
           - "9 Entwurfsmuster/Strukturmuster/Composite.md"
           - "9 Entwurfsmuster/Strukturmuster/Decorator.md"
           - "9 Entwurfsmuster/Strukturmuster/Facade.md"
-          - "9 Entwurfsmuster/Strukturmuster/Observer.md"
           - "9 Entwurfsmuster/Strukturmuster/Proxy.md"
         - section: "Verhaltensmuster"
           contents:
+          - "9 Entwurfsmuster/Verhaltensmuster/Command.md"
+          - "9 Entwurfsmuster/Verhaltensmuster/Null-Object.md"
+          - "9 Entwurfsmuster/Verhaltensmuster/Observer.md"
           - "9 Entwurfsmuster/Verhaltensmuster/Strategy.md"
+          - "9 Entwurfsmuster/Verhaltensmuster/Template Method.md"
           - "9 Entwurfsmuster/Verhaltensmuster/Visitor.md"
+      - section: "10 Programmierrichtlinien"
+        href: 10 Programmierrichtlinien/10 Programmierrichtlinien.md
+        contents:
       - section: "11 Qualitätssicherung"
         contents:
         - "11 Qualitätssicherung/Inspektion.md"
@@ -142,6 +148,7 @@ website:
         - "14 Projektmanagement/Wichtige Aspekte des Projektmanagement.md"
       - "README.md"
       - "index.qmd"
+
 
 
 

@@ -6,8 +6,25 @@ Softwaretechnik I
 --
 ## Liste aller Relevanten Entwurfsmuster
 ***
--
+Die nicht durchgestrichenen Muster sind BESONDERS wichtig, es heißt aber nicht, dass die anderen Muster irrelevant sind / nicht dran kommen.
+>[!info] Strukturmuster
+>[[Adapter]]
+>~~[[Facade]]~~
+>~~[[Proxy]]~~
+>~~[[Decorator]]~~
+>[[Composite]]
 
+>[!info] Erzeugungsmuster
+>[[Abstract Factory]]
+>~~[[Singleton]]~~
+
+>[!info] Verhaltensmuster
+>[[Visitor]]
+ > ~~[[Strategy]]~~
+>~~[[Template Method]]~~
+>~~[[Command]]~~
+>~~[[Null-Object]]~~
+>[[Observer]]
 
 ## Klassifizierung der Muster
 ***
