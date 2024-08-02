@@ -45,3 +45,7 @@ Hallihallo! Willkommen zu meinen Notizen zu der Softwaretechnik 1 Vorlesung von 
 - [ ] Vorlesung 14
 
 TODO: Entwurfsmuster Observer genauer anschauen observer ist irgendwie komisch
+Plan für Samstag:
+- Entwurfsmuster finishen
+- Kapitel 14 vielleicht bearbeiten vielleicht auch nicht
+- höchstens 1 Stunde finishing touches und den rest einfach nur üben
