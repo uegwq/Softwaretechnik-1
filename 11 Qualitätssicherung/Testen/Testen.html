@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>qualitätssicherung – Softwaretechnik 1</title>
+<title>testen – Softwaretechnik 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,6 +98,35 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -110,7 +139,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Inspektion.html">11 Qualitätssicherung</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/11 Qualitätssicherung.html">Testen</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/11 Qualitätssicherung.html">11 Qualitätssicherung</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/11 Qualitätssicherung.html">11 Qualitätssicherung</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/Testen.html">Testen</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -600,34 +629,22 @@ cookieconsent.run({
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+            <a href="../../11 Qualitätssicherung/11 Qualitätssicherung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">11 Qualitätssicherung</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../11 Qualitätssicherung/Inspektion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Inspektion</span></a>
-  </div>
-</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+            <a href="../../11 Qualitätssicherung/Testen/Testen.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Testen</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../11 Qualitätssicherung/Testen/11 Qualitätssicherung.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">11 Qualitätssicherung</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../11 Qualitätssicherung/Testen/Abnahmetests.html" class="sidebar-item-text sidebar-link">
@@ -642,6 +659,12 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../11 Qualitätssicherung/Testen/Inspektion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inspektion</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../11 Qualitätssicherung/Testen/Integrationstest.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Integrationstest</span></a>
   </div>
@@ -650,6 +673,18 @@ cookieconsent.run({
   <div class="sidebar-item-container"> 
   <a href="../../11 Qualitätssicherung/Testen/Kontrollflussgraph.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Kontrollflussgraph</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../11 Qualitätssicherung/Testen/Leistungstests.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Leistungstests</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../11 Qualitätssicherung/Testen/Prüfprogramme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prüfprogramme</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -843,7 +878,7 @@ cookieconsent.run({
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Inspektion.html">11 Qualitätssicherung</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/11 Qualitätssicherung.html">Testen</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/11 Qualitätssicherung.html">11 Qualitätssicherung</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/11 Qualitätssicherung.html">11 Qualitätssicherung</a></li><li class="breadcrumb-item"><a href="../../11 Qualitätssicherung/Testen/Testen.html">Testen</a></li></ol></nav>
 <div class="quarto-title">
 </div>
 
@@ -867,26 +902,34 @@ cookieconsent.run({
 </header>
 
 
-<section id="qualitätssicherung" class="level2">
-<h2 class="anchored" data-anchor-id="qualitätssicherung">11 Qualitätssicherung</h2>
+<section id="testen" class="level2">
+<h2 class="anchored" data-anchor-id="testen">Testen</h2>
 </section>
-<section id="definition" class="level2">
-<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<section id="übersichtsmatrix" class="level2">
+<h2 class="anchored" data-anchor-id="übersichtsmatrix">Übersichtsmatrix</h2>
 <hr>
-<p>Testen können nie beweisen, dass der Code funktioniert sondern nur zeigen, dass gewisse Fehler ausgeschlossen sind.</p>
-<p>Es gibt dabei einige Test</p>
-<p>Wir betrachten vorallem das Kontrollflussorientierte Testen</p>
-<p>Man unterscheidet zwischen folgenden Fehlerklassen:</p>
+<div class="line-block"><strong>Phase</strong> | | | | | | |</div>
+<div class="line-block">—————- | ———————– | ——————— | ——————– | —————— | ——————— | —————– |</div>
+<div class="line-block">Abnahmetest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Abnahmetests.html">Abnahmetests</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
+<div class="line-block">Systemtest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Systemtests.html">Systemtests</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
+<div class="line-block">Integrationstest | <span class="math inline">\(\rightarrow\)</span> | <span class="math inline">\(\rightarrow\)</span> | <a href="../../11 Qualitätssicherung/Testen/Integrationstest.html">Integrationstest</a> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> | <span class="math inline">\(\leftarrow\)</span> |</div>
+<div class="line-block">Komponententest | <a href="../../11 Qualitätssicherung/Testen/Kontrollflussgraph.html">Kontrollflussgraph</a> | - | <a href="../../11 Qualitätssicherung/Testen/Blackboxtesting.html">Blackboxtesting</a> | <a href="../../11 Qualitätssicherung/Testen/Leistungstests.html">Leistungstests</a> | <a href="../../11 Qualitätssicherung/Testen/Inspektion.html">Inspektion</a> | <a href="../../11 Qualitätssicherung/Testen/Prüfprogramme.html">Prüfprogramme</a> |</div>
+<div class="line-block"><strong>Verfahren</strong> | Kontrollflussorientiert | Datenfluss-orientiert | Funktionelle Tests | Leistungstests | Manuelle Prüfmethoden | Prüfprogramme |</div>
+</section>
+<section id="modulsoftwaretest" class="level2">
+<h2 class="anchored" data-anchor-id="modulsoftwaretest">Modul/Softwaretest</h2>
+<hr>
+<p>Ein Softwaretests, oder kurz einfach ein Test, führt eine einzelne Softwarekomponente aus und schaut obs stimmt.</p>
+<p>Die zu überprüfende Softwarekomponente wird Testobjekt genannt</p>
+</section>
+<section id="fehler" class="level2">
+<h2 class="anchored" data-anchor-id="fehler">Fehler</h2>
+<hr>
+<p>Es gibt drei arten von Fehlern (errors):</p>
 <ul>
-<li><p>Anforderungsfehler (Defekt im Pflechtenheft) (Anforderungen sind nicht richtig, unvollständig, nicht umsetzbart)</p></li>
-<li><p>Emtwirfsfehler (Defekt in der Spezifikation) (Anforderung verstanden aber falsch umgesetzt)</p></li>
-<li><p>Implementierungsfehler (Defekt im Code)</p></li>
-</ul>
-<p>Es gibt dabei folgende Fehlerarten</p>
-<ul>
-<li><p>Versagen oder Ausfall “Es funktioniert nicht”</p></li>
-<li><p>Defekte (Mangel, der eventuall ein Versagen versursachen kann)</p></li>
-<li><p>Irrtum bzw Herstellerfehler (die Menschlichte Aktion, die einen Fehler verursagt vom Entwickler)</p></li>
+<li><p>Failure, fault ist die Abweichung des Verhaltens der Software von der Spezifikation (ein Ereignis)</p></li>
+<li><p>Defect, Bug ist ein Mangel, der zu einem Versagen führen kann (ein Zustand). Man sagt, dass sich ein Bug in einem Failiure manifestiert.</p></li>
+<li><p>Mistake ist eine menschlichte Aktion, die einen Failure verursacht. (ein Vorgang)</p></li>
 </ul>
 </section>
 <section id="siehe-auch" class="level2">
@@ -1472,7 +1515,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions"><ul><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/edit/main/11 Qualitätssicherung/Testen/11 Qualitätssicherung.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/edit/main/11 Qualitätssicherung/Testen/Testen.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
