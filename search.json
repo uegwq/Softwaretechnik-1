@@ -776,7 +776,7 @@
     "href": "index.html#nachbearbeitungsprogess",
     "title": "Softwaretechnik 1",
     "section": "Nachbearbeitungsprogess:",
-    "text": "Nachbearbeitungsprogess:\n\n\nVorlesung 2\nVorlesung 3\nVorlesung 4\nVorlesung 5\nVorlesung 6\nVorlesung 7\nVorlesung 8\nVorlesung 9\nVorlesung 10\nVorlesung 11\nVorlesung 12\nVorlesung 13\nVorlesung 14\n\nTODO: Entwurfsmuster Observer genauer anschauen observer ist irgendwie komisch",
+    "text": "Nachbearbeitungsprogess:\n\n\nVorlesung 2\nVorlesung 3\nVorlesung 4\nVorlesung 5\nVorlesung 6\nVorlesung 7\nVorlesung 8\nVorlesung 9\nVorlesung 10\nVorlesung 11\nVorlesung 12\nVorlesung 13\nVorlesung 14\n\nTODO: Entwurfsmuster Observer genauer anschauen observer ist irgendwie komisch\nPlan für Samstag:\n\nEntwurfsmuster finishen\nKapitel 14 vielleicht bearbeiten vielleicht auch nicht\nhöchstens 1 Stunde finishing touches und den rest einfach nur üben",
     "crumbs": [
       "DAS IST SOFTWARETECHNIK"
     ]
@@ -2870,7 +2870,7 @@
     "href": "11 Qualitätssicherung/Testen/Testen.html#übersichtsmatrix",
     "title": "Softwaretechnik 1",
     "section": "Übersichtsmatrix",
-    "text": "Übersichtsmatrix\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhase\n\n\n\n\n\n\n\n\n\n\nAbnahmetest\n[[Abnahmetests]]\n\n[[Abnahmetests]]\n\n\n\n\n\nSystemtest\n[[Systemtests]]\n\n[[Systemtests]]\n\n\n\n\n\nIntegrationstest\n[[Integrationstest]]\n\n[[Integrationstest]]\n\n\n\n\n\nKomponententest\n[[Kontrollflussgraph]]\n-\n[[Blackboxtesting]]\n[[Leistungstests]]\n[[Inspektion]]\n[[Prüfprogramme]]\n\n\nVerfahren\nKontrollflussorientiert\nDatenfluss-orientiert\nFunktionelle Tests\nLeistungstests\nManuelle Prüfmethoden\nPrüfprogramme",
+    "text": "Übersichtsmatrix\n\n\n\n\nPhase\n\n\n\n\n\n\n\n\n\n\nAbnahmetest\nAbnahmetests\n\nAbnahmetests\n\n\n\n\n\nSystemtest\nSystemtests\n\nSystemtests\n\n\n\n\n\nIntegrationstest\nIntegrationstest\n\nIntegrationstest\n\n\n\n\n\nKomponententest\nKontrollflussgraph\n-\nBlackboxtesting\nLeistungstests\nInspektion\nPrüfprogramme\n\n\nVerfahren\nKontrollflussorientiert\nDatenfluss-orientiert\nFunktionelle Tests\nLeistungstests\nManuelle Prüfmethoden\nPrüfprogramme",
     "crumbs": [
       "11 Qualitätssicherung",
       "Testen"
