@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projektstrukturplan – Softwaretechnik 1</title>
+<title>modell-view-controller – Softwaretechnik 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -110,7 +110,7 @@ cookieconsent.run({
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../14 Projektmanagement/Aufwandsschätzung.html">14 Projektmanagement</a></li><li class="breadcrumb-item"><a href="../14 Projektmanagement/Projektstrukturplan.html">Projektstrukturplan</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../9 Entwurfsmuster/Modell-view-controller.html">Modell-view-controller</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -753,7 +753,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../14 Projektmanagement/Projektstrukturplan.html" class="sidebar-item-text sidebar-link active">
+  <a href="../14 Projektmanagement/Projektstrukturplan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projektstrukturplan</span></a>
   </div>
 </li>
@@ -1842,7 +1842,7 @@ cookieconsent.run({
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../9 Entwurfsmuster/Modell-view-controller.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Entwurfsmuster/Modell-view-controller.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Modell-view-controller</span></a>
   </div>
 </li>
@@ -2847,7 +2847,7 @@ cookieconsent.run({
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../14 Projektmanagement/Aufwandsschätzung.html">14 Projektmanagement</a></li><li class="breadcrumb-item"><a href="../14 Projektmanagement/Projektstrukturplan.html">Projektstrukturplan</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../9 Entwurfsmuster/9 Entwurfsmuster.html">9 Entwurfsmuster</a></li><li class="breadcrumb-item"><a href="../9 Entwurfsmuster/Modell-view-controller.html">Modell-view-controller</a></li></ol></nav>
 <div class="quarto-title">
 </div>
 
@@ -2871,14 +2871,18 @@ cookieconsent.run({
 </header>
 
 
-<section id="projektstrukturplan" class="level2">
-<h2 class="anchored" data-anchor-id="projektstrukturplan">Projektstrukturplan</h2>
+<section id="modell-view-controller" class="level2">
+<h2 class="anchored" data-anchor-id="modell-view-controller">Modell-view-controller</h2>
 </section>
 <section id="definition" class="level2">
 <h2 class="anchored" data-anchor-id="definition">Definition</h2>
 <hr>
-<p>IUstr ein hierachisch gegliedertes Dokument, welches die Stuktur des Projekts abbilddet und die Aufgaben und Arbeitspakete zeigt und zeigt was zu tun ist. Dadurch kann man Aufgaben zuweisen und planen was noch getan werden muss und dann wie gesagt wer die noch tun muss. Wir machen das wie divide an conquer.</p>
-<p><img src="../Pasted image 20240718162033.png" class="img-fluid"></p>
+<p>Der Kern ist, dass wir eine Datenspeicherung im Model haben, sowie einen View und Controller.</p>
+<p>Definition vom Tut:</p>
+<p>Bei einer solchen Architektur trennt man die Datenspeicherung (Modell) von der Darstellung (Präsentation) ab. Als Schnittstelle dient beiden Teilen die Steuerung.</p>
+<p>MVC ist ein spezifischeres Muster als das Schichtenmodell. Die Schichten sind nicht so fest umgesetzt und nicht so fest getrennt. Es sind nicht sher die Aufgaben getrennt (wie bei der Schichtenarchitektur), sondern eher die Anzeige, Verarbeitung, Speicherung.</p>
+<p><img src="../Pasted image 20240620155705.png" class="img-fluid"></p>
+<p><img src="../Pasted image 20240620160804.png" class="img-fluid"></p>
 </section>
 <section id="siehe-auch" class="level2">
 <h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
@@ -3463,7 +3467,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 
-<div class="toc-actions"><ul><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/edit/main/14 Projektmanagement/Projektstrukturplan.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/edit/main/9 Entwurfsmuster/Modell-view-controller.md" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/uegwq/Softwaretechnik-1-Notizen/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
